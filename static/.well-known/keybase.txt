@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ray2060
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.pythoner.work
+  * I am ray2060 (https://keybase.io/ray2060) on keybase.
+  * I have a public key ASB_dMkRUGZLZURzO4lc43etE2Yk_e5pRVWfdmFPk1rGMwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204cb3e9c7e5e495bc6ad88518a8adfdee1062fd3d91510e82ec58d12fc8c43d310a",
+      "host": "keybase.io",
+      "kid": "01207f74c91150664b6544733b895ce377ad136624fdee6945559f76614f935ac6330a",
+      "uid": "c7c046cacfc5daf91b557750a573f919",
+      "username": "ray2060"
+    },
+    "merkle_root": {
+      "ctime": 1650449368,
+      "hash": "e4162cff485da3be9bc666ef5fbbff14b6e4a4e3ae263a10995bf33d96400ef147fae193c9d2d216e4f1fb087b66c067031f86171ba9882bada4c05a675fd350",
+      "hash_meta": "f48364fffccaaed4808bec5ad05091813a2c21b391e011b070248fbc532e9c63",
+      "seqno": 22329320
+    },
+    "service": {
+      "entropy": "p6G2hzbqMkaerv9kJS+fDasJ",
+      "hostname": "www.pythoner.work",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1650449383,
+  "expire_in": 504576000,
+  "prev": "ced53e63a37bd51616a0f41a4677f8c27c446f133ab16d18a2077be15ac066d7",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgf3TJEVBmS2VEczuJXON3rRNmJP3uaUVVn3ZhT5NaxjMKp3BheWxvYWTESpcCDcQgztU+Y6N71RYWoPQaRnf4wnxEbxM6sW0Yogd74VrAZtfEIOKch/xQE+K3KDGKg/nE0KiSSlEGpLBI62yHQN5aZLoRAgHCo3NpZ8RAJUA9VUMU+z/f7KM37GSmVfxBKDuHicTcdQxb1XAAIl1fUu9MlG4F+lh9mFiK9k3SO2ztydf6Heh+4jqweRRjDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOxBVZ6aTatUoPWdw2PoYy7QaQ+M2zmd+TnXZ7isyRTno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ray2060
+
+==================================================================
