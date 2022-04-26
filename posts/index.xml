@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/posts/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 21 Apr 2022 21:24:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>哈希表</title><link>https://www.pythoner.work/posts/hashtable/</link><pubDate>Thu, 21 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/posts/hashtable/</guid><description>&lt;h2 id="功能">功能&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/posts/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 23 Apr 2022 21:24:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>有道小图灵3级（2022年4月）</title><link>https://www.pythoner.work/posts/xiaotuling-202204/</link><pubDate>Sat, 23 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/posts/xiaotuling-202204/</guid><description>&lt;h2 id="考试简介">考试简介&lt;/h2>
+&lt;ul>
+&lt;li>题数：5道&lt;/li>
+&lt;li>时间：2个小时&lt;/li>
+&lt;li>总分：500分&lt;/li>
+&lt;li>难度：低于CSP-J&lt;/li>
+&lt;/ul>
+&lt;h2 id="题目">题目&lt;/h2>
+&lt;p>ABC题没难度，忽略。&lt;/p>
+&lt;h3 id="d购机攻略">D：购机攻略&lt;/h3>
+&lt;p>链接：&lt;a class="link" href="https://oj.youdao.com/problem/9589" target="_blank" rel="noopener"
+>购机攻略&lt;/a>&lt;/p>
+&lt;h4 id="思路">思路&lt;/h4>
+&lt;p>直接模拟，由于&lt;code>sort()&lt;/code>只能排序单个内容，不能排序散的内容，用&lt;code>struct&lt;/code>。&lt;/p>
+&lt;h4 id="易错点">易错点&lt;/h4>
+&lt;p>&lt;code>sort()&lt;/code>只能排序单个内容，不能排序散的内容，用&lt;code>struct&lt;/code>。&lt;/p>
+&lt;h3 id="e暑假作业">E：暑假作业&lt;/h3>
+&lt;p>链接：&lt;a class="link" href="https://oj.youdao.com/problem/9590" target="_blank" rel="noopener"
+>暑假作业&lt;/a>&lt;/p>
+&lt;h4 id="思路-1">思路&lt;/h4>
+&lt;p>和二分求一个数的立方根这类的题相似，就用二分。&lt;/p>
+&lt;p>可以知道答案最少是1，至多是最大的元素，在这两个值中间二分。&lt;/p>
+&lt;h4 id="易错点-1">易错点&lt;/h4>
+&lt;p>容易想不到要二分……&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;h3 id="不能不拿部分分">不能不拿部分分&lt;/h3>
+&lt;p>DE两题是放弃了，所以得了300分，如果拿部分分就是360分，多了足足60分！！！&lt;/p>
+&lt;h3 id="要有思考不能光是暴力">要有思考，不能光是暴力&lt;/h3>
+&lt;p>很多算法都是先想暴力做法及其缺点再进行优化，我们也要学习。&lt;/p>
+&lt;h3 id="不能想问题想的过于死板">不能想问题想的过于死板&lt;/h3>
+&lt;p>D题根本就没想到&lt;code>sort()&lt;/code>不能排散东西。&lt;/p></description></item><item><title>哈希表</title><link>https://www.pythoner.work/posts/hashtable/</link><pubDate>Thu, 21 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/posts/hashtable/</guid><description>&lt;h2 id="功能">功能&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
