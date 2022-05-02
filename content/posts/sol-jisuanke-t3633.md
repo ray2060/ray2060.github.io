@@ -8,7 +8,6 @@ tags:
 - 计蒜客
 - graph
 - queue
-
 ---
 
 ## 题目
@@ -25,10 +24,10 @@ tags:
 
 很明显，这是一个无向图，看数据范围可以看出应该用邻接表。
 
-暴力解的缺点在于可能挑出三个毫无关联的点，那就让每个点拥有1个`fa`，有了它的存在，
-我们就得找这个图的生成树，因为起码得有个点是根才有`fa`的概念。
+暴力解的缺点在于可能挑出三个毫无关联的点，那就让每个点拥有1个$fa$，有了它的存在，
+我们就得找这个图的生成树，因为起码得有个点是根才有$fa$的概念。
 
-假设遍历到的点是`cur`，找到相邻点`v`，那么我们只用看`fa`和`v`是否相邻了，变得非常简单，
+假设遍历到的点是$cur$，找到相邻点$v$，那么我们只用看$fa$和$v$是否相邻了，变得非常简单，
 复杂度降低了很多。
 
 最终，再来谈论一下实现，在判断是否相邻时，使用二分查找，进一步优化。
@@ -54,8 +53,8 @@ struct Node {
 };
 
 int main() {
-    //freopen("triangle.in", "r", stdin);
-    //freopen("triangle.out", "w", stdout);
+    freopen("triangle.in", "r", stdin);
+    freopen("triangle.out", "w", stdout);
     cin >> n >> m;
     for (int i = 0; i < m; i ++ ) {
         int u, v;
@@ -152,6 +151,7 @@ while (hh != tt) {
 ### 完整代码
 
 注：抛弃了二分，否则太复杂了。
+
 ```c++
 #include <iostream>
 #include <cstring>
