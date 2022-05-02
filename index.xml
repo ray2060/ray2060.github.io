@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>分而治之</title><link>https://www.pythoner.work/</link><description>Recent content on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 01 May 2022 21:07:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/index.xml" rel="self" type="application/rss+xml"/><item><title>题解-景区三角形</title><link>https://www.pythoner.work/posts/sol-jisuanket3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/posts/sol-jisuanket3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>分而治之</title><link>https://www.pythoner.work/</link><description>Recent content on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 01 May 2022 21:07:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/index.xml" rel="self" type="application/rss+xml"/><item><title>题解-景区三角形</title><link>https://www.pythoner.work/posts/sol-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/posts/sol-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
 &lt;p>题目链接：&lt;a class="link" href="https://nanti.jisuanke.com/t/T3633" target="_blank" rel="noopener"
 >景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="解法">解法&lt;/h2>
@@ -6,9 +6,9 @@
 &lt;p>直接找出三个点，进行&lt;code>check()&lt;/code>，非常简单的思路。&lt;/p>
 &lt;h3 id="满分解">满分解&lt;/h3>
 &lt;p>很明显，这是一个无向图，看数据范围可以看出应该用邻接表。&lt;/p>
-&lt;p>暴力解的缺点在于可能挑出三个毫无关联的点，那就让每个点拥有1个&lt;code>fa&lt;/code>，有了它的存在，
-我们就得找这个图的生成树，因为起码得有个点是根才有&lt;code>fa&lt;/code>的概念。&lt;/p>
-&lt;p>假设遍历到的点是&lt;code>cur&lt;/code>，找到相邻点&lt;code>v&lt;/code>，那么我们只用看&lt;code>fa&lt;/code>和&lt;code>v&lt;/code>是否相邻了，变得非常简单，
+&lt;p>暴力解的缺点在于可能挑出三个毫无关联的点，那就让每个点拥有1个$fa$，有了它的存在，
+我们就得找这个图的生成树，因为起码得有个点是根才有$fa$的概念。&lt;/p>
+&lt;p>假设遍历到的点是$cur$，找到相邻点$v$，那么我们只用看$fa$和$v$是否相邻了，变得非常简单，
 复杂度降低了很多。&lt;/p>
 &lt;p>最终，再来谈论一下实现，在判断是否相邻时，使用二分查找，进一步优化。&lt;/p>
 &lt;p>放代码：&lt;/p>
@@ -97,9 +97,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//freopen(&amp;#34;triangle.in&amp;#34;, &amp;#34;r&amp;#34;, stdin);
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//freopen(&amp;#34;triangle.out&amp;#34;, &amp;#34;w&amp;#34;, stdout);
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">n&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">freopen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;triangle.in&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;r&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">stdin&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">freopen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;triangle.out&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;w&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">stdout&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">n&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">++&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">u&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">v&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">u&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">v&lt;/span>&lt;span class="p">;&lt;/span>
@@ -529,9 +529,9 @@
 &lt;p>冒泡排序，边排边计算代价，非常暴力……&lt;/p>
 &lt;h4 id="满分解-1">满分解&lt;/h4>
 &lt;p>这是带权逆序对问题。&lt;/p>
-&lt;p>所以通过归并求逆序对，从&lt;code>p2&lt;/code>移到&lt;code>p1&lt;/code>需要耗费代价&lt;/p>
-&lt;p>&lt;code>((p2+mid)^2 + (p2+mid-1)^2 + ... + (p2+p1)^2) + (2*w[mid]*w[p2] + 2*w[mid-1]*w[p2] + ... + 2*w[p1]*w[p2]) + (mid - p1 + 1) * w[p2]&lt;/code>&lt;/p>
-&lt;p>然后，维护&lt;code>w[i]&lt;/code>和&lt;code>w[i] ^ 2&lt;/code>的后缀和就OK了。&lt;/p>
+&lt;p>所以通过归并求逆序对，从$p_2$移到$p_1$需要耗费代价&lt;/p>
+&lt;p>$((p_2 + mid)^2 + (p_2 + mid - 1)^2 + &amp;hellip; + (p_2 + p_1)^2) + (2 * w[mid] * w[p_2] + 2 * w[mid - 1] * w[p_2] + &amp;hellip; + 2 * w[p_1] * w[p_2]) + (mid - p_1 + 1) * w[p_2]$&lt;/p>
+&lt;p>然后，维护$w[i]$和$w[i] ^ 2$的后缀和就OK了。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -686,14 +686,13 @@
 &lt;p>题目链接：&lt;a class="link" href="https://nanti.jisuanke.com/t/T3633" target="_blank" rel="noopener"
 >景区三角形&lt;/a>&lt;/p>
 &lt;h4 id="暴力解法-1">暴力解法&lt;/h4>
-&lt;p>就&lt;code>O(n^3)&lt;/code>找三个点，做个&lt;code>check()&lt;/code>，就结束了，不再赘述。&lt;/p>
+&lt;p>就$O(n^3)$找三个点，做个&lt;code>check()&lt;/code>，就结束了，不再赘述。&lt;/p>
 &lt;h4 id="满分解-2">满分解&lt;/h4>
-&lt;p>通过&lt;code>bfs&lt;/code>找三角形，一个点设一个&lt;code>fa&lt;/code>，根（1）等于&lt;code>-1&lt;/code>。&lt;/p>
+&lt;p>通过&lt;code>bfs&lt;/code>找三角形，一个点设一个$fa$，根（1）等于$-1$。&lt;/p>
 &lt;p>有点像找生成树。&lt;/p>
-&lt;p>找到一个点&lt;code>v&lt;/code>，判断&lt;code>fa&lt;/code>，&lt;code>cur&lt;/code>，&lt;code>v&lt;/code>是否构成三角形，如果是，排序放进答案里输出，如果&lt;code>v&lt;/code>没遍历过，遍历&lt;code>v&lt;/code>。&lt;/p>
+&lt;p>找到一个点$v$，判断$fa$，$cur$，$v$是否构成三角形，如果是，排序放进答案里输出，如果$v$没遍历过，遍历$v$。&lt;/p>
 &lt;p>这道题我写了更详细的题解（代码也包装进去了，这里不放了哈）：
-&lt;a class="link" href="https://www.pythoner.work/posts/sol-jisuankeT3633/" target="_blank" rel="noopener"
->题解-景区三角形&lt;/a>&lt;/p>
+&lt;a class="link" href="https://www.pythoner.work/posts/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;h3 id="不能放弃记得调试">不能放弃，记得调试&lt;/h3>
 &lt;p>C题本来能40分的，但是没调试，放弃了，代码都没存档……&lt;/p>
