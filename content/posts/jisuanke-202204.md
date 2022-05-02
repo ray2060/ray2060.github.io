@@ -1,5 +1,5 @@
 ---
-title: 计蒜客4月月赛（普及组）赛后总结
+title: 计蒜客4月月赛（普及组）
 description:
 date: 2022-04-23T15:00:00+08:00
 categories:
