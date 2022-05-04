@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>分而治之</title><link>https://www.pythoner.work/</link><description>Recent content on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 May 2022 17:17:51 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/index.xml" rel="self" type="application/rss+xml"/><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/posts/jisuanke-dao-2022/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/posts/jisuanke-dao-2022/</guid><description>&lt;img src="https://www.pythoner.work/posts/jisuanke-dao-2022/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>分而治之</title><link>https://www.pythoner.work/</link><description>Recent content on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 May 2022 17:17:51 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/index.xml" rel="self" type="application/rss+xml"/><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/post/jisuanke-dao-2022/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-dao-2022/</guid><description>&lt;img src="https://www.pythoner.work/post/jisuanke-dao-2022/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：4道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -275,7 +275,7 @@
 &lt;p>有点像找生成树。&lt;/p>
 &lt;p>找到一个点$v$，判断$fa$，$cur$，$v$是否构成三角形，如果是，排序放进答案里输出，如果$v$没遍历过，遍历$v$。&lt;/p>
 &lt;p>这道题我写了更详细的题解（代码也包装进去了，这里不放了哈）：
-&lt;a class="link" href="https://www.pythoner.work/posts/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
+&lt;a class="link" href="https://www.pythoner.work/post/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;h3 id="不能放弃记得调试">不能放弃，记得调试&lt;/h3>
 &lt;p>C题本来能40分的，但是没调试，放弃了，代码都没存档……&lt;/p>
@@ -286,7 +286,7 @@
 关于C题的推导其实很长这件事……&lt;/p>
 &lt;h3 id="想算法时的方法很重要">想算法时的方法很重要&lt;/h3>
 &lt;p>签到题如果复杂度不超标就行，这回也就简简单单一个快速幂。&lt;/p>
-&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>景区三角形</title><link>https://www.pythoner.work/posts/sol-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/posts/sol-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
+&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>景区三角形</title><link>https://www.pythoner.work/post/sol-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
 &lt;p>题目链接：&lt;a class="link" href="https://nanti.jisuanke.com/t/T3633" target="_blank" rel="noopener"
 >景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="解法">解法&lt;/h2>
@@ -673,7 +673,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>有道小图灵3级（2022年4月）</title><link>https://www.pythoner.work/posts/xiaotuling-202204/</link><pubDate>Sat, 23 Apr 2022 18:00:00 +0800</pubDate><guid>https://www.pythoner.work/posts/xiaotuling-202204/</guid><description>&lt;h2 id="考试简介">考试简介&lt;/h2>
+&lt;/div></description></item><item><title>有道小图灵3级（2022年4月）</title><link>https://www.pythoner.work/post/xiaotuling-202204/</link><pubDate>Sat, 23 Apr 2022 18:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/xiaotuling-202204/</guid><description>&lt;h2 id="考试简介">考试简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：5道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -703,7 +703,7 @@
 &lt;h3 id="要有思考不能光是暴力">要有思考，不能光是暴力&lt;/h3>
 &lt;p>很多算法都是先想暴力做法及其缺点再进行优化，我们也要学习。&lt;/p>
 &lt;h3 id="不能想问题想的过于死板">不能想问题想的过于死板&lt;/h3>
-&lt;p>D题根本就没想到&lt;code>sort()&lt;/code>不能排散东西。&lt;/p></description></item><item><title>计蒜客4月月赛（普及组）</title><link>https://www.pythoner.work/posts/jisuanke-202204/</link><pubDate>Sat, 23 Apr 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/posts/jisuanke-202204/</guid><description>&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+&lt;p>D题根本就没想到&lt;code>sort()&lt;/code>不能排散东西。&lt;/p></description></item><item><title>计蒜客4月月赛（普及组）</title><link>https://www.pythoner.work/post/jisuanke-202204/</link><pubDate>Sat, 23 Apr 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-202204/</guid><description>&lt;h2 id="比赛简介">比赛简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：4道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -980,7 +980,7 @@
 &lt;p>有点像找生成树。&lt;/p>
 &lt;p>找到一个点$v$，判断$fa$，$cur$，$v$是否构成三角形，如果是，排序放进答案里输出，如果$v$没遍历过，遍历$v$。&lt;/p>
 &lt;p>这道题我写了更详细的题解（代码也包装进去了，这里不放了哈）：
-&lt;a class="link" href="https://www.pythoner.work/posts/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
+&lt;a class="link" href="https://www.pythoner.work/post/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;h3 id="不能放弃记得调试">不能放弃，记得调试&lt;/h3>
 &lt;p>C题本来能40分的，但是没调试，放弃了，代码都没存档……&lt;/p>
@@ -991,7 +991,7 @@
 关于C题的推导其实很长这件事……&lt;/p>
 &lt;h3 id="想算法时的方法很重要">想算法时的方法很重要&lt;/h3>
 &lt;p>签到题如果复杂度不超标就行，这回也就简简单单一个快速幂。&lt;/p>
-&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>哈希表</title><link>https://www.pythoner.work/posts/hashtable/</link><pubDate>Thu, 21 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/posts/hashtable/</guid><description>&lt;h2 id="功能">功能&lt;/h2>
+&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>哈希表</title><link>https://www.pythoner.work/post/hashtable/</link><pubDate>Thu, 21 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/post/hashtable/</guid><description>&lt;h2 id="功能">功能&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1266,7 +1266,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>循环队列</title><link>https://www.pythoner.work/posts/circular-linked-list/</link><pubDate>Tue, 19 Apr 2022 15:25:00 +0800</pubDate><guid>https://www.pythoner.work/posts/circular-linked-list/</guid><description>&lt;h2 id="循环队列">循环队列&lt;/h2>
+&lt;/div></description></item><item><title>循环队列</title><link>https://www.pythoner.work/post/circular-linked-list/</link><pubDate>Tue, 19 Apr 2022 15:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/circular-linked-list/</guid><description>&lt;h2 id="循环队列">循环队列&lt;/h2>
 &lt;h3 id="功能">功能&lt;/h3>
 &lt;p>节省空间，比如说：&lt;/p>
 &lt;p>操作：&lt;/p>
@@ -1431,7 +1431,7 @@ hh以前的空间不能用了。&lt;/p>
 &lt;/div>&lt;h2 id="版权问题">版权问题&lt;/h2>
 &lt;p>没有问题，背着抱着都行。&lt;/p>
 &lt;h2 id="评论区问题">评论区问题&lt;/h2>
-&lt;p>评论区不能抱走， sofa你是背不动滴，给我一句留言我就让你抱走。&lt;/p></description></item><item><title>关于</title><link>https://www.pythoner.work/%E5%85%B3%E4%BA%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
+&lt;p>评论区不能抱走， sofa你是背不动滴，给我一句留言我就让你抱走。&lt;/p></description></item><item><title>关于</title><link>https://www.pythoner.work/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/about/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
 >Apache Licence 2.0.&lt;/a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p>
 &lt;p>Hugo makes use of a variety of open source projects including:&lt;/p>
 &lt;ul>
@@ -1450,4 +1450,4 @@ hh以前的空间不能用了。&lt;/p>
 &lt;p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p>
 &lt;p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p>
 &lt;p>Learn more and contribute on &lt;a class="link" href="https://github.com/gohugoio" target="_blank" rel="noopener"
->GitHub&lt;/a>.&lt;/p></description></item><item><title>归档</title><link>https://www.pythoner.work/%E5%BD%92%E6%A1%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/%E5%BD%92%E6%A1%A3/</guid><description/></item><item><title>搜索</title><link>https://www.pythoner.work/%E6%90%9C%E7%B4%A2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/%E6%90%9C%E7%B4%A2/</guid><description/></item></channel></rss>
+>GitHub&lt;/a>.&lt;/p></description></item><item><title>归档</title><link>https://www.pythoner.work/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/archives/</guid><description/></item><item><title>链接</title><link>https://www.pythoner.work/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/links/</guid><description/></item><item><title>搜索</title><link>https://www.pythoner.work/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.pythoner.work/search/</guid><description/></item></channel></rss>

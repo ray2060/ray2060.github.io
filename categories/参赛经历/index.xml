@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>参赛经历 on 分而治之</title><link>https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/</link><description>Recent content in 参赛经历 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 May 2022 17:17:51 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/index.xml" rel="self" type="application/rss+xml"/><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/posts/jisuanke-dao-2022/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/posts/jisuanke-dao-2022/</guid><description>&lt;img src="https://www.pythoner.work/posts/jisuanke-dao-2022/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>参赛经历 on 分而治之</title><link>https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/</link><description>Recent content in 参赛经历 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 May 2022 17:17:51 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/index.xml" rel="self" type="application/rss+xml"/><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/post/jisuanke-dao-2022/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-dao-2022/</guid><description>&lt;img src="https://www.pythoner.work/post/jisuanke-dao-2022/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：4道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -275,7 +275,7 @@
 &lt;p>有点像找生成树。&lt;/p>
 &lt;p>找到一个点$v$，判断$fa$，$cur$，$v$是否构成三角形，如果是，排序放进答案里输出，如果$v$没遍历过，遍历$v$。&lt;/p>
 &lt;p>这道题我写了更详细的题解（代码也包装进去了，这里不放了哈）：
-&lt;a class="link" href="https://www.pythoner.work/posts/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
+&lt;a class="link" href="https://www.pythoner.work/post/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;h3 id="不能放弃记得调试">不能放弃，记得调试&lt;/h3>
 &lt;p>C题本来能40分的，但是没调试，放弃了，代码都没存档……&lt;/p>
@@ -286,7 +286,7 @@
 关于C题的推导其实很长这件事……&lt;/p>
 &lt;h3 id="想算法时的方法很重要">想算法时的方法很重要&lt;/h3>
 &lt;p>签到题如果复杂度不超标就行，这回也就简简单单一个快速幂。&lt;/p>
-&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>有道小图灵3级（2022年4月）</title><link>https://www.pythoner.work/posts/xiaotuling-202204/</link><pubDate>Sat, 23 Apr 2022 18:00:00 +0800</pubDate><guid>https://www.pythoner.work/posts/xiaotuling-202204/</guid><description>&lt;h2 id="考试简介">考试简介&lt;/h2>
+&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>有道小图灵3级（2022年4月）</title><link>https://www.pythoner.work/post/xiaotuling-202204/</link><pubDate>Sat, 23 Apr 2022 18:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/xiaotuling-202204/</guid><description>&lt;h2 id="考试简介">考试简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：5道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -316,7 +316,7 @@
 &lt;h3 id="要有思考不能光是暴力">要有思考，不能光是暴力&lt;/h3>
 &lt;p>很多算法都是先想暴力做法及其缺点再进行优化，我们也要学习。&lt;/p>
 &lt;h3 id="不能想问题想的过于死板">不能想问题想的过于死板&lt;/h3>
-&lt;p>D题根本就没想到&lt;code>sort()&lt;/code>不能排散东西。&lt;/p></description></item><item><title>计蒜客4月月赛（普及组）</title><link>https://www.pythoner.work/posts/jisuanke-202204/</link><pubDate>Sat, 23 Apr 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/posts/jisuanke-202204/</guid><description>&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+&lt;p>D题根本就没想到&lt;code>sort()&lt;/code>不能排散东西。&lt;/p></description></item><item><title>计蒜客4月月赛（普及组）</title><link>https://www.pythoner.work/post/jisuanke-202204/</link><pubDate>Sat, 23 Apr 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-202204/</guid><description>&lt;h2 id="比赛简介">比赛简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：4道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -593,7 +593,7 @@
 &lt;p>有点像找生成树。&lt;/p>
 &lt;p>找到一个点$v$，判断$fa$，$cur$，$v$是否构成三角形，如果是，排序放进答案里输出，如果$v$没遍历过，遍历$v$。&lt;/p>
 &lt;p>这道题我写了更详细的题解（代码也包装进去了，这里不放了哈）：
-&lt;a class="link" href="https://www.pythoner.work/posts/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
+&lt;a class="link" href="https://www.pythoner.work/post/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;h3 id="不能放弃记得调试">不能放弃，记得调试&lt;/h3>
 &lt;p>C题本来能40分的，但是没调试，放弃了，代码都没存档……&lt;/p>
