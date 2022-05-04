@@ -1,6 +1,7 @@
 ---
 title: 关于
 description: Hugo, the world's fastest framework for building websites
+comments: false
 menu:
     main:
         weight: -90

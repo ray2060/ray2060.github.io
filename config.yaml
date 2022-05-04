@@ -28,12 +28,14 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 
 permalinks:
-    post: /p/:slug/
-    page: /:slug/
+    post: /post/:filename/
+    page: /:filename/
+
+enableEmoji: true
 
 params:
     mainSections:
-        - posts
+        - post
     featuredImageField: image
     rssFullContent: true
     favicon: /favicon.ico
