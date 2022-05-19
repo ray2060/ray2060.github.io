@@ -7,6 +7,7 @@ categories:
 tags:
 - 计蒜客
 image: dao-2022.png
+draft: true
 ---
 
 ## 比赛简介
