@@ -1,105 +1,139 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/post/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 19 May 2022 15:34:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/post/index.xml" rel="self" type="application/rss+xml"/><item><title>杨辉三角</title><link>https://www.pythoner.work/post/yanghui/</link><pubDate>Thu, 19 May 2022 15:34:00 +0800</pubDate><guid>https://www.pythoner.work/post/yanghui/</guid><description>&lt;h2 id="分数版杨辉三角">分数版杨辉三角&lt;/h2>
-&lt;p>比如说像：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/post/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 10 Jul 2022 11:52:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/post/index.xml" rel="self" type="application/rss+xml"/><item><title>从n个球中取m个</title><link>https://www.pythoner.work/post/counting/</link><pubDate>Sun, 10 Jul 2022 11:52:00 +0800</pubDate><guid>https://www.pythoner.work/post/counting/</guid><description>&lt;h2 id="不放回无重排列组合">不放回（无重排列组合）&lt;/h2>
+&lt;h3 id="有序">有序&lt;/h3>
+&lt;p>$$P_n^m$$&lt;/p>
+&lt;h3 id="无序">无序&lt;/h3>
+&lt;p>$$C_n^m$$&lt;/p>
+&lt;h2 id="放回可重排列组合">放回（可重排列组合）&lt;/h2>
+&lt;h3 id="有序-1">有序&lt;/h3>
+&lt;p>一个一个取，每步可以有$n$种选择，乘法原理：
+$$n \times n \times n \times&amp;hellip;\times n\
+= n^m$$&lt;/p>
+&lt;h3 id="无序-1">无序&lt;/h3>
+&lt;p>可重组合，可记作：
+$\bar{C}_n^m$（c bar n m)，
+$H_n^m$。&lt;/p>
+&lt;p>重点：隔板法&lt;/p>
+&lt;p>从$n$元集中可重复的选取$m$个元素，则方程$x_1 + x_2 + x_3 + &amp;hellip; + x_n = m$的非负整数解的个数就是可以选的方式的总个数。那么我们可以把这个问题看成在$m$个元素中插入$n-1$个分隔符，每段中是一种元素，就是在$n+m-1$个位置中选取$n-1$个放分隔符，也是$n+m-1$个位置中选取$m$个不放分隔符，就可以用无重组合的方式表示可重组合：
+$$C_{n+m-1}^{m}$$&lt;/p>
+&lt;h3 id="无序每种至少选一个">无序，每种至少选一个&lt;/h3>
+&lt;p>可重组合的变形，仍使用隔板法。&lt;/p>
+&lt;p>这次每种至少选一个的使得两个隔板不能放在一起，位置数减小到了$m - 1$，所以答案就是：
+$$C_{m-1}^{n-1}$$&lt;/p></description></item><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</guid><description>&lt;img src="https://www.pythoner.work/post/jisuanke-dao-2022-a1/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+&lt;ul>
+&lt;li>题数：4道&lt;/li>
+&lt;li>时间：3个小时&lt;/li>
+&lt;li>总分：400分&lt;/li>
+&lt;li>难度：2道J2，2道S2&lt;/li>
+&lt;li>晋级标准:前100名&lt;/li>
+&lt;/ul>
+&lt;h2 id="开始考试">开始考试&lt;/h2>
+&lt;p>先来讲题。&lt;/p>
+&lt;p>A题签到题忽略……
+CD题目前没能力解决，也忽略。&lt;/p>
+&lt;h3 id="bmila的木棍">B：Mila的木棍&lt;/h3>
+&lt;h4 id="题面">题面&lt;/h4>
+&lt;p>$\text{Mila}$ 找到了 $n$ 根木棍，她将这 $n$ 根木棍排成一行形成一个序列 $a$，但是她发现此时的序列可能是不优美的。&lt;/p>
+&lt;p>假如木棍的长度从左到右形成一个&lt;strong>不下降序列&lt;/strong>，那么 $\text{Mila}$ 认为这些木棍才是优美的。因此，$\text{Mila}$ 学习了一种可以削减木棍长度的魔法：对一个区间 $[l,r]$ 使用一次魔法，可以&lt;strong>将这个区间内所有木棍的长度减 $1$&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>不下降序列&lt;/strong>：对于所有 $1\leq j &amp;lt; i \leq n$，满足 $a[j] \leq a[i]$。例如序列 $3,3,4,5$ 就是不下降序列。&lt;/p>
+&lt;p>现在 $\text{Mila}$ 想要知道：&lt;strong>至少&lt;/strong>需要使用多少次魔法才可以将这些木棍变得优美？&lt;/p>
+&lt;h5 id="输入格式">输入格式&lt;/h5>
+&lt;p>第一行一个整数 $n$，表示木棍的数量。&lt;/p>
+&lt;p>第二行 $n$ 个以空格隔开的整数，表示这个序列，第 $i$ 根木棍的长度为 $a_i$。&lt;/p>
+&lt;h5 id="输出格式">输出格式&lt;/h5>
+&lt;p>输出共一行一个整数，表示答案。&lt;/p>
+&lt;h5 id="数据范围">数据范围&lt;/h5>
+&lt;p>对于 $20%$ 的数据，满足 $n,a_i\leq 10$。&lt;/p>
+&lt;p>对于 $40%$ 的数据，满足 $n\leq 10^3$。&lt;/p>
+&lt;p>对于另外 $20%$ 的数据，保证 $a$ 是一个不递增序列。&lt;/p>
+&lt;p>对于 $100%$ 的数据，满足 $1\leq n\leq 10^6,1\leq a_i\leq 10^9$。&lt;/p>
+&lt;h5 id="样例输入">样例输入&lt;/h5>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 1/4
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 1/4 1/4
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1/4 2/4 1/4
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 3 2
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>这一类的。&lt;/p>
-&lt;p>我们已知它的特性有：&lt;/p>
-&lt;ul>
-&lt;li>一行的和是上一行的2倍（不含第一行）&lt;/li>
-&lt;li>一个数是上面两个数的和（没有一个就等于另一个，第一个除外）&lt;/li>
-&lt;/ul>
-&lt;p>其实还可以发现更多。&lt;/p>
-&lt;h2 id="杨辉三角">杨辉三角&lt;/h2>
-&lt;h3 id="科普一下">科普一下&lt;/h3>
-&lt;p>杨辉三角，是二项式系数在三角形中的一种几何排列，中国南宋数学家杨辉1261年所著的《详解九章算法》一书中出现。在欧洲，帕斯卡（1623&amp;mdash;-1662）在1654年发现这一规律，所以这个表又叫做帕斯卡三角形。帕斯卡的发现比杨辉要迟393年，比贾宪迟600年。&lt;/p>
-&lt;p>杨辉三角是中国数学史上的一个伟大成就。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>科普一下&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>中文名&lt;/td>
-&lt;td>杨辉三角&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>外文名&lt;/td>
-&lt;td>Pascal&amp;rsquo;s Triangle&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>别名&lt;/td>
-&lt;td>贾宪三角形、帕斯卡三角形&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>提出时间&lt;/td>
-&lt;td>约1050年&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>发现者&lt;/td>
-&lt;td>杨辉&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;img src="https://www.pythoner.work/post/yanghui/yanghui1.png"
-width="434"
-height="243"
-srcset="https://www.pythoner.work/post/yanghui/yanghui1_hu2ae8e051ae992f7390c4714cfc834663_27353_480x0_resize_box_3.png 480w, https://www.pythoner.work/post/yanghui/yanghui1_hu2ae8e051ae992f7390c4714cfc834663_27353_1024x0_resize_box_3.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="178"
-data-flex-basis="428px"
->&lt;/p>
-&lt;h3 id="用途及其特性">用途及其特性&lt;/h3>
-&lt;ul>
-&lt;li>每个数等于它上方两数之和。&lt;/li>
-&lt;li>每行数字左右对称，由$1$开始逐渐变大。&lt;/li>
-&lt;li>第$n$行的数字有$n$项。&lt;/li>
-&lt;li>前$n$行共$\frac{(1+n)n}{2}$个数。&lt;/li>
-&lt;li>第$n$行的$m$个数可表示为$C_{n-1}^{m-1}$，即为从$n-1$个不同元素中取$m-1$个元素的组合数。&lt;/li>
-&lt;li>第n行数字的和为$2^{n-1}$。
-$$1=2^{1-1}$$
-$$1+1=2^{2-1}$$
-$$1+2+1=2^{3-1}$$
-$$1+3+3+1=2^{4-1}$$
-$$1+4+6+4+1=2^{5-1}$$
-$$1+5+10+10+5+1=2^{6-1}$$&lt;/li>
-&lt;li>斜线上数字的和等于其向左（从左上方到右下方的斜线）或向右拐弯（从右上方到左下方的斜线），拐角上的数字。
-$$1+1=2$$
-$$1+1+1=3$$
-$$1+1+1+1=4$$
-$$1+2=3$$
-$$1+2+3=6$$
-$$1+2+3+4=10$$
-$$1+3=4$$
-$$1+3+6=10$$
-$$1+4=5$$&lt;/li>
-&lt;li>将各行数字左对齐，其右上到左下对角线数字的和等于斐波那契数列的数字。
-$$1$$
-$$1$$
-$$1+1=2$$
-$$2+1=3$$
-$$1+3+1=5$$
-$$3+4+1=8$$
-$$1+6+5+1=13$$
-$$4+10+6+1=21$$
-$$1+10+15+7+1=34$$
-$$5+20+21+8+1=55$$&lt;/li>
-&lt;/ul></description></item><item><title>景区三角形</title><link>https://www.pythoner.work/post/sol-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
+&lt;/div>&lt;h5 id="样例输出">样例输出&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="满分解">满分解&lt;/h4>
+&lt;p>对于一个$i$，如果$a_i \gt a_{i + 1}$，那么为了形成不下降序列，至少有$a_i - a_{i + 1}$次削减的区间的右端点需位于$i$。&lt;/p>
+&lt;p>所以操作数至少为$\sum_{i=1}^{n - 1} max(a_i - a_{i + 1}, 0)$。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">typedef&lt;/span> &lt;span class="kt">long&lt;/span> &lt;span class="kt">long&lt;/span> &lt;span class="n">LL&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">freopen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;stick.in&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;r&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">stdin&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">freopen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;stick.out&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;w&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">stdout&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">LL&lt;/span> &lt;span class="n">prev&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ans&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">prev&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">n&lt;/span> &lt;span class="o">--&lt;/span> &lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">n&lt;/span> &lt;span class="o">--&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">prev&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ans&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">prev&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">prev&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cout&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">ans&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="总结">总结&lt;/h2>
+&lt;h3 id="要用草稿纸">要用草稿纸&lt;/h3>
+&lt;p>不用草稿纸基本只能做签到题，况且这场比赛难度确实不低。&lt;/p></description></item><item><title>景区三角形</title><link>https://www.pythoner.work/post/sol-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
 &lt;p>题目链接：&lt;a class="link" href="https://nanti.jisuanke.com/t/T3633" target="_blank" rel="noopener"
 >景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="解法">解法&lt;/h2>

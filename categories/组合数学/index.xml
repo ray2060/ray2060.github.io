@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>组合数学 on 分而治之</title><link>https://www.pythoner.work/categories/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</link><description>Recent content in 组合数学 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 10 Jul 2022 11:52:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>从n个球中取m个</title><link>https://www.pythoner.work/post/counting/</link><pubDate>Sun, 10 Jul 2022 11:52:00 +0800</pubDate><guid>https://www.pythoner.work/post/counting/</guid><description>&lt;h2 id="不放回无重排列组合">不放回（无重排列组合）&lt;/h2>
+&lt;h3 id="有序">有序&lt;/h3>
+&lt;p>$$P_n^m$$&lt;/p>
+&lt;h3 id="无序">无序&lt;/h3>
+&lt;p>$$C_n^m$$&lt;/p>
+&lt;h2 id="放回可重排列组合">放回（可重排列组合）&lt;/h2>
+&lt;h3 id="有序-1">有序&lt;/h3>
+&lt;p>一个一个取，每步可以有$n$种选择，乘法原理：
+$$n \times n \times n \times&amp;hellip;\times n\
+= n^m$$&lt;/p>
+&lt;h3 id="无序-1">无序&lt;/h3>
+&lt;p>可重组合，可记作：
+$\bar{C}_n^m$（c bar n m)，
+$H_n^m$。&lt;/p>
+&lt;p>重点：隔板法&lt;/p>
+&lt;p>从$n$元集中可重复的选取$m$个元素，则方程$x_1 + x_2 + x_3 + &amp;hellip; + x_n = m$的非负整数解的个数就是可以选的方式的总个数。那么我们可以把这个问题看成在$m$个元素中插入$n-1$个分隔符，每段中是一种元素，就是在$n+m-1$个位置中选取$n-1$个放分隔符，也是$n+m-1$个位置中选取$m$个不放分隔符，就可以用无重组合的方式表示可重组合：
+$$C_{n+m-1}^{m}$$&lt;/p>
+&lt;h3 id="无序每种至少选一个">无序，每种至少选一个&lt;/h3>
+&lt;p>可重组合的变形，仍使用隔板法。&lt;/p>
+&lt;p>这次每种至少选一个的使得两个隔板不能放在一起，位置数减小到了$m - 1$，所以答案就是：
+$$C_{m-1}^{n-1}$$&lt;/p></description></item></channel></rss>
