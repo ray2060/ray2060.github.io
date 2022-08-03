@@ -52,7 +52,12 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">f(i - 1, j - v[i]) &amp;lt;--- f(i, j) ---&amp;gt; f(i - 1, j)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>从n个球中取m个</title><link>https://www.pythoner.work/post/counting/</link><pubDate>Sun, 10 Jul 2022 11:52:00 +0800</pubDate><guid>https://www.pythoner.work/post/counting/</guid><description>&lt;h2 id="不放回无重排列组合">不放回（无重排列组合）&lt;/h2>
+&lt;/div></description></item><item><title>排列与二进制</title><link>https://www.pythoner.work/post/sol-acw3588/</link><pubDate>Tue, 12 Jul 2022 13:57:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-acw3588/</guid><description>&lt;h2 id="题目大意">题目大意&lt;/h2>
+&lt;p>求$P_{n}^{m}$的二进制的后面有几个0。&lt;/p>
+&lt;p>$1\le m \le n \le 10000$&lt;/p>
+&lt;h2 id="解法">解法&lt;/h2>
+&lt;p>二进制可以忽略，&lt;strong>完全是出于出题人想搞晕做题人&lt;/strong>。&lt;/p>
+&lt;p>十进制中尾部的0的个数就是因数10的数量，二进制就是2。&lt;/p></description></item><item><title>从n个球中取m个</title><link>https://www.pythoner.work/post/counting/</link><pubDate>Sun, 10 Jul 2022 11:52:00 +0800</pubDate><guid>https://www.pythoner.work/post/counting/</guid><description>&lt;h2 id="不放回无重排列组合">不放回（无重排列组合）&lt;/h2>
 &lt;h3 id="有序">有序&lt;/h3>
 &lt;p>$$P_n^m$$&lt;/p>
 &lt;h3 id="无序">无序&lt;/h3>

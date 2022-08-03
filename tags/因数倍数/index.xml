@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>因数倍数 on 分而治之</title><link>https://www.pythoner.work/tags/%E5%9B%A0%E6%95%B0%E5%80%8D%E6%95%B0/</link><description>Recent content in 因数倍数 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 12 Jul 2022 13:57:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E5%9B%A0%E6%95%B0%E5%80%8D%E6%95%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>排列与二进制</title><link>https://www.pythoner.work/post/sol-acw3588/</link><pubDate>Tue, 12 Jul 2022 13:57:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-acw3588/</guid><description>&lt;h2 id="题目大意">题目大意&lt;/h2>
+&lt;p>求$P_{n}^{m}$的二进制的后面有几个0。&lt;/p>
+&lt;p>$1\le m \le n \le 10000$&lt;/p>
+&lt;h2 id="解法">解法&lt;/h2>
+&lt;p>二进制可以忽略，&lt;strong>完全是出于出题人想搞晕做题人&lt;/strong>。&lt;/p>
+&lt;p>十进制中尾部的0的个数就是因数10的数量，二进制就是2。&lt;/p></description></item></channel></rss>
