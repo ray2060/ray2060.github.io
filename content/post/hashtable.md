@@ -5,7 +5,6 @@ date: 2022-04-21T21:24:00+08:00
 categories:
 - 数据结构
 tags:
-- c++
 - hashtable
 ---
 
@@ -121,36 +120,6 @@ int main() {
             h[find(x)] = x;
         } else {
             if (h[find(x)] == null) puts("No");
-            else puts("Yes");
-        }
-    }
-
-    return 0;
-}
-```
-
-### STL（建议使用）
-
-代码都不用上了……
-```c++
-#include <iostream>
-#include <unordered_map>
-
-using namespace std;
-
-int main() {
-    int n;
-    scanf("%d", &n);
-
-    unordered_map<int, bool> h;
-    while (n -- ) {
-        char op[2];
-        int x;
-        scanf("%s%d", op, &x);
-        if (*op == 'I') {
-            h[x] = true;
-        } else {
-            if (h[x] == false) puts("No");
             else puts("Yes");
         }
     }

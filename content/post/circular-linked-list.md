@@ -5,9 +5,8 @@ date: 2022-04-19T15:25:00+08:00
 categories:
 - 算法
 tags:
-- c++
-- list
 - queue
+- 循环队列
 ---
 
 ## 循环队列
