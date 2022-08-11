@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>位运算 on 分而治之</title><link>https://www.pythoner.work/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/</link><description>Recent content in 位运算 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Aug 2022 18:56:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/index.xml" rel="self" type="application/rss+xml"/><item><title>快速幂</title><link>https://www.pythoner.work/post/qmi/</link><pubDate>Wed, 10 Aug 2022 18:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
+&lt;p>求$m ^ k$ $\bmod$ $p$&lt;/p>
+&lt;h2 id="反复平方法">反复平方法&lt;/h2>
+&lt;h3 id="预处理">预处理&lt;/h3>
+&lt;p>$O(k)$预处理出来以下的数：&lt;br>
+$m ^ {2 ^ 0}$ $\bmod$ $p$&lt;br>
+$m ^ {2 ^ 1}$ $\bmod$ $p$&lt;br>
+$m ^ {2 ^ 2}$ $\bmod$ $p$&lt;br>
+&amp;hellip;&lt;br>
+$m ^ {2 ^{\log{k}}}$ $\bmod$ $p$&lt;/p>
+&lt;p>怎么做？直接循环！代码忽略，因为还要优化。&lt;/p>
+&lt;h3 id="算答案">算答案&lt;/h3>
+&lt;p>举例子，$4 ^{5}$ $\bmod$ $10$
+$ = (4^{2 ^ 2}$ $\bmod$ $10$ $\times$ $4 ^{2 ^ 0}$ $\bmod$ $10)$ $\bmod$ $10$&lt;/p>
+&lt;p>就可以调预处理的数了，&lt;br>
+$4^{2 ^ 2}$ $\bmod$ $10$ $ = $ $6$&lt;br>
+$4^{2 ^ 0}$ $\bmod$ $10$ $ = $ $4$&lt;br>
+$(6$ $\times$ $4)$ $\bmod$ $10$ $ = $ $4$&lt;/p>
+&lt;p>验证一下：&lt;br>
+$4^5$ $\bmod$ $10$ $=$ $1024$ $\bmod$ $10$ $=$ $4$&lt;/p>
+&lt;p>把$k$转化为二进制并取出对应的数再相乘，$O(k)$。&lt;/p>
+&lt;h3 id="把两个步骤合在一起">把两个步骤合在一起&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">qmi&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">k&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">p&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">t&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="n">p&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">k&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">k&lt;/span> &lt;span class="o">&amp;amp;&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">t&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">LL&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="n">t&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">m&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="n">p&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">m&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">LL&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="n">m&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">m&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="n">p&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">k&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">t&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>关键操作：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>k &amp;amp; 1&lt;/code> $k$ 的末位（二进制）为$0$&lt;/li>
+&lt;li>&lt;code>LL&lt;/code> 乘的过程可能会爆&lt;code>int&lt;/code>，使用&lt;code>long long&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>至此，模板题就可以$\Large{\color{green}{AC}}$辣！&lt;/p>
+&lt;h2 id="应用题">应用题&lt;/h2>
+&lt;h3 id="幂次方">幂次方&lt;/h3>
+&lt;h4 id="题面">题面&lt;/h4>
+&lt;p>对任意正整数 $N$，计算 $X^N \bmod 233333$ 的值。&lt;/p>
+&lt;p>（输入输出不用管他）&lt;/p>
+&lt;h4 id="解法">解法&lt;/h4>
+&lt;p>把$233333$看作$p$，彻头彻尾的一道快速幂题。&lt;/p>
+&lt;p>&lt;code>qmi(X, N, 233333)&lt;/code>&lt;/p>
+&lt;h3 id="越狱">越狱&lt;/h3>
+&lt;h4 id="题面-1">题面&lt;/h4>
+&lt;p>监狱有连续编号为 $1$ 到 $n$ 的 $n$ 个房间，每个房间关押一个犯人。&lt;/p>
+&lt;p>有 $m$ 种宗教，每个犯人可能信仰其中一种。&lt;/p>
+&lt;p>如果相邻房间的犯人信仰的宗教相同，就可能发生越狱。&lt;/p>
+&lt;p>求有多少种状态可能发生越狱，对 $100003$ 取余。&lt;/p>
+&lt;h4 id="解法-1">解法&lt;/h4>
+&lt;p>直接想发生越狱的情况数不好想，那就想不发生越狱，$1$有$n$钟选择，$2$要想不发生越狱需要避开$1$的选择，有$n - 1$钟，后面的每一个人都需要避开前面一人的选择，都是$n - 1$种选择。列算式：
+$$m (m - 1)^{n-1}$$
+那不越狱的方案数就是：
+$$m^n - m(m - 1)^{n - 1}$$
+用快速幂解决问题。&lt;/p></description></item></channel></rss>
