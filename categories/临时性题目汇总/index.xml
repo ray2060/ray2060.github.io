@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>临时性题目汇总 on 分而治之</title><link>https://www.pythoner.work/categories/%E4%B8%B4%E6%97%B6%E6%80%A7%E9%A2%98%E7%9B%AE%E6%B1%87%E6%80%BB/</link><description>Recent content in 临时性题目汇总 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Aug 2022 17:51:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E4%B8%B4%E6%97%B6%E6%80%A7%E9%A2%98%E7%9B%AE%E6%B1%87%E6%80%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP-J/NOIP普及组复赛历年试题汇总</title><link>https://www.pythoner.work/post/cspj-noip1-problem/</link><pubDate>Wed, 10 Aug 2022 17:51:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj-noip1-problem/</guid><description>&lt;h2 id="csp-j-2021">CSP-J 2021&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4089/" target="_blank" rel="noopener"
+>T1 分糖果&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4090/" target="_blank" rel="noopener"
+>T2 插入排序&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4091/" target="_blank" rel="noopener"
+>T3 网络连接&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4092/" target="_blank" rel="noopener"
+>T4 小熊的果篮&lt;/a>&lt;/p>
+&lt;h2 id="csp-j-2020">CSP-J 2020&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2769/" target="_blank" rel="noopener"
+>T1 优秀的拆分&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2770/" target="_blank" rel="noopener"
+>T2 直播获奖&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2771/" target="_blank" rel="noopener"
+>T3 表达式&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2772/" target="_blank" rel="noopener"
+>T4 方格取数&lt;/a>&lt;/p>
+&lt;h2 id="csp-j-2019">CSP-J 2019&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1163/" target="_blank" rel="noopener"
+>T1 数字游戏&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1164/" target="_blank" rel="noopener"
+>T2 公交换乘&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1165/" target="_blank" rel="noopener"
+>T3 纪念品&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1166/" target="_blank" rel="noopener"
+>T4 加工领奖&lt;/a>&lt;/p>
+&lt;h2 id="noip2018-普及组">NOIP2018 普及组&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/476/" target="_blank" rel="noopener"
+>T1 标题统计&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/477/" target="_blank" rel="noopener"
+>T2 龙虎斗&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/478/" target="_blank" rel="noopener"
+>T3 摆渡车&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/479/" target="_blank" rel="noopener"
+>T4 对称二叉树&lt;/a>&lt;/p>
+&lt;h2 id="noip2017-普及组">NOIP2017 普及组&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/471/" target="_blank" rel="noopener"
+>T1 成绩&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/472/" target="_blank" rel="noopener"
+>T2 图书管理员&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/473/" target="_blank" rel="noopener"
+>T3 棋盘&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/474/" target="_blank" rel="noopener"
+>T4 跳房子&lt;/a>&lt;/p>
+&lt;h2 id="noip2016-普及组">NOIP2016 普及组&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/467/" target="_blank" rel="noopener"
+>T1 买铅笔&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/468/" target="_blank" rel="noopener"
+>T2 回文日期&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/469/" target="_blank" rel="noopener"
+>T3 海港&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/470/" target="_blank" rel="noopener"
+>T4 魔法阵&lt;/a>&lt;/p></description></item></channel></rss>
