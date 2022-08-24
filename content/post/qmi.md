@@ -1,7 +1,7 @@
 ---
 title: 快速幂
 description: 乘方的复杂度居然不是O(k)？
-date: 2022-08-10T18:56:00+08:00
+date: 2022-08-11T11:56:00+08:00
 categories:
 - 算法
 tags:
