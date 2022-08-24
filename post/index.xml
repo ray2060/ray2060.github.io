@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/post/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Aug 2022 18:56:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/post/index.xml" rel="self" type="application/rss+xml"/><item><title>快速幂</title><link>https://www.pythoner.work/post/qmi/</link><pubDate>Wed, 10 Aug 2022 18:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/post/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Aug 2022 14:38:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/post/index.xml" rel="self" type="application/rss+xml"/><item><title>size_t相当于unsigned long long</title><link>https://www.pythoner.work/post/unsigned-cannot-sub1/</link><pubDate>Thu, 11 Aug 2022 14:38:00 +0800</pubDate><guid>https://www.pythoner.work/post/unsigned-cannot-sub1/</guid><description>&lt;h2 id="问题">问题&lt;/h2>
+&lt;h3 id="代码">代码&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="n">vector&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">vec&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// some code here
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">vec&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">size&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">++&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cout&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">vec&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="sc">&amp;#39; &amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="原本思路">原本思路&lt;/h3>
+&lt;p>只打印$vec$的前$|vec| - 1$个元素，就用这个挺好！&lt;/p>
+&lt;h3 id="显示出的问题">显示出的问题&lt;/h3>
+&lt;p>&lt;font color="#ee0000">Segmentation Fault&lt;/font>
+&lt;font color="#ee0000">11&lt;/font>/&lt;font color="#00ee00">0&lt;/font>/11&lt;/p>
+&lt;h3 id="解读">解读&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">C:/blahblah/blahblahblah.cpp:2022:23: warning: comparison of integer expressions of different signedness: &amp;#39;int&amp;#39; and &amp;#39;std::vector&amp;lt;int&amp;gt;::size_type&amp;#39; {aka &amp;#39;long long unsigned int&amp;#39;} [-Wsign-compare]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> for (int i = 0; i &amp;lt; vec.size(); i ++ ) {
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>可以发现如果&lt;code>size&lt;/code>是$0$那么就会减出$18446744073709551615$，明显是要报错的。&lt;/p></description></item><item><title>快速幂</title><link>https://www.pythoner.work/post/qmi/</link><pubDate>Thu, 11 Aug 2022 11:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
 &lt;p>求$m ^ k$ $\bmod$ $p$&lt;/p>
 &lt;h2 id="反复平方法">反复平方法&lt;/h2>
 &lt;h3 id="预处理">预处理&lt;/h3>
