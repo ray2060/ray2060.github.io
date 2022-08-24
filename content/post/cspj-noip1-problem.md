@@ -3,9 +3,9 @@ title: CSP-J/NOIP普及组复赛历年试题汇总
 description: 倒计时73天！冲刺CSP-J2022复赛400！
 date: 2022-08-10T17:51:00+08:00
 categories:
-- 临时性题目汇总
+- 题目汇总
 tags:
-- 冲CSP-J2
+- CSP-J2
 ---
 
 ## CSP-J 2021 
