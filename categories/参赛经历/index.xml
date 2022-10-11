@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>参赛经历 on 分而治之</title><link>https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/</link><description>Recent content in 参赛经历 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 May 2022 17:17:51 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/index.xml" rel="self" type="application/rss+xml"/><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</guid><description>&lt;img src="https://www.pythoner.work/post/jisuanke-dao-2022-a1/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>参赛经历 on 分而治之</title><link>https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/</link><description>Recent content in 参赛经历 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Oct 2022 18:00:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP-J 2022 参赛经历</title><link>https://www.pythoner.work/post/cspj2-2022/</link><pubDate>Tue, 11 Oct 2022 18:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj2-2022/</guid><description>&lt;h2 id="day--18">Day -18&lt;/h2>
+&lt;p>今天数学课上接触了“比”这个东西，感觉自己的数学知识不够用hhh。&lt;br>
+钢琴老师说，弹钢琴弹得好，&lt;del>打游戏&lt;/del>打代码就会很666，所以我要努力练钢琴！&lt;/p></description></item><item><title>CSP-J1 2022 参赛经历</title><link>https://www.pythoner.work/post/cspj1-2022/</link><pubDate>Sun, 18 Sep 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj1-2022/</guid><description>&lt;h2 id="day--2">Day -2&lt;/h2>
+&lt;p>今天做了个模拟，成绩65，一般般。最主要的是保持一个好状态准备迎接J1。&lt;/p>
+&lt;h2 id="day--1">Day -1&lt;/h2>
+&lt;p>小图灵集训队集训日。今天终于能从J1的思维中跳出来放松一下了！&lt;/p>
+&lt;h2 id="day-0">Day 0&lt;/h2>
+&lt;h5 id="730">7:30&lt;/h5>
+&lt;p>起床了！洗把脸清醒一下。&lt;/p>
+&lt;h5 id="810">8:10&lt;/h5>
+&lt;p>坐上出租车冲向考场！路上复习一下排序的稳定性。&lt;/p>
+&lt;h5 id="845">8:45&lt;/h5>
+&lt;p>到达考场所在大厦的楼底下。&lt;/p>
+&lt;p>验证身份后拿起袋子爬楼，要爬7楼。&lt;/p>
+&lt;p>走进考场，好紧张好紧张。没想到能遇到同学校的学长，心放下来了一半。&lt;/p>
+&lt;h5 id="930">9:30&lt;/h5>
+&lt;p>发卷。&lt;/p>
+&lt;p>拿到卷子，先浏览一遍，可以看出没有组合数学，位运算放到了阅读程序第一题，阅读第二三题看起来很难，要多分配时间，补全程序很简单，枚举和&lt;code>floodfill&lt;/code>。&lt;/p>
+&lt;h5 id="1100">11:00&lt;/h5>
+&lt;p>做完了，还要检查。&lt;/p>
+&lt;p>居然出租车上复习都能压中题，欧皇附身了！&lt;/p>
+&lt;h5 id="1130">11:30&lt;/h5>
+&lt;p>下楼啦，心全放下来了。&lt;/p>
+&lt;h5 id="1900">19:00&lt;/h5>
+&lt;p>直播时间到！&lt;/p>
+&lt;p>没想到考后7小时就出估分了，77不是太好。能现场听题解，所有不懂的地方全懂了。&lt;/p>
+&lt;h2 id="day-1">Day 1&lt;/h2>
+&lt;p>周一，上学。&lt;/p>
+&lt;p>上课就只有两个字，好困！&lt;/p>
+&lt;h2 id="day-3">Day 3&lt;/h2>
+&lt;p>估分更正，79。&lt;/p>
+&lt;p>这道题到底说的是强连通还是弱联通？！&lt;/p>
+&lt;p>9.考虑由 $N$ 个顶点构成的有向连通图，采用邻接矩阵的数据结构表示时，该矩阵中至少存在（ ）个非零元素。&lt;/p>
+&lt;p>A $N - 1$&lt;/p>
+&lt;p>B $N$&lt;/p>
+&lt;p>C $N + 1$&lt;/p>
+&lt;p>D $N^2$&lt;/p>
+&lt;h2 id="day-9">Day 9&lt;/h2>
+&lt;p>出成绩啦，77又变回去了哈哈哈。&lt;/p>
+&lt;p>晋级，是肯定的，毕竟我在北京。&lt;/p>
+&lt;p>可以冲J2啦。&lt;/p>
+&lt;p>本文到此结束&lt;a class="link" href="https://pythoner.work/post/cspj2-2022" target="_blank" rel="noopener"
+>J2链接&lt;/a>&lt;/p></description></item><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</guid><description>&lt;img src="https://www.pythoner.work/post/jisuanke-dao-2022-a1/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：4道&lt;/li>
 &lt;li>时间：3个小时&lt;/li>
