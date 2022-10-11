@@ -5,7 +5,7 @@ date: 2022-08-10T17:51:00+08:00
 categories:
 - 题目汇总
 tags:
-- CSP-J2
+- CSP
 ---
 
 ## CSP-J 2021 
