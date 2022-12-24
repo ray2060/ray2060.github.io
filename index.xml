@@ -57,17 +57,15 @@
 &lt;/div>&lt;p>结果是：&lt;/p>
 &lt;p>使用&lt;code>1&lt;/code>号代码输出&lt;code>-1073686390&lt;/code>，使用&lt;code>2&lt;/code>号代码输出&lt;code>1919810&lt;/code>。&lt;/p>
 &lt;h2 id="为什么它等于mid">为什么它等于mid&lt;/h2>
-&lt;p>&lt;code>l + (r - l) / 2&lt;/code>&lt;/p>
-&lt;p>这个表达式转换一下：$l + \frac{r - l}{2}$，
-也就是$\frac{2 \times l + r - l}{2}$，
-即$\frac{l + r}{2}$。&lt;/p>
+&lt;p>$L+\frac{R-L}{2} = \frac{2L + R - L}{2} = \frac{L + R}{2}$&lt;/p>
 &lt;p>就是&lt;code>l&lt;/code>和&lt;code>r&lt;/code>的平均值&lt;code>mid&lt;/code>。&lt;/p>
 &lt;h2 id="为什么不会爆">为什么不会爆&lt;/h2>
-&lt;p>首先，一般的二分答案都是二分正数（不是，答案范围一般不大，如浮点二分三次方根），那&lt;code>r - l&lt;/code>就不会爆。&lt;/p>
+&lt;p>首先，一般的二分答案都是二分正数（不是的话，答案范围一般不大，如浮点二分三次方根），那&lt;code>r - l&lt;/code>就不会爆。&lt;/p>
 &lt;p>&lt;code>r - l&lt;/code>不爆，&lt;code>(r - l) / 2&lt;/code>也不会爆。&lt;/p>
 &lt;p>至于&lt;code>l + (r - l) / 2&lt;/code>，很明显，这个值一定在&lt;code>l&lt;/code>和&lt;code>r&lt;/code>之间，既然&lt;code>l&lt;/code>和&lt;code>r&lt;/code>不爆，那这个就不可能爆。&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>当然，除非真的要爆&lt;code>long long&lt;/code>了才会用这招，不然写错了可就爆0了。&lt;/p>
+&lt;p>注：写二分也要注意边界条件哈，听说只有 $10%$ 的程序员能写对二分hhh。&lt;/p>
 &lt;h2 id="附整型浮点型爆炸极限">附：整型浮点型爆炸极限&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -79,24 +77,24 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>int&lt;/td>
-&lt;td>l = 0, r = 1073741823&lt;/td>
+&lt;td>&lt;code>int&lt;/code>&lt;/td>
+&lt;td>$l = 0, r = 10^{9}$&lt;/td>
 &lt;td>???&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>long long&lt;/td>
-&lt;td>l = 0, r = 4.6e18&lt;/td>
+&lt;td>&lt;code>long long&lt;/code>&lt;/td>
+&lt;td>$l = 0, r = 4.6 \times 10^{18}$&lt;/td>
 &lt;td>???&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>double&lt;/td>
+&lt;td>&lt;code>double&lt;/code>&lt;/td>
 &lt;td>???&lt;/td>
-&lt;td>1e-8（可存15位十进制）&lt;/td>
+&lt;td>$10^{-8}$ 一般就用 $10^{-5}$（可存15位十进制）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>long double&lt;/td>
+&lt;td>&lt;code>long double&lt;/code>&lt;/td>
 &lt;td>???&lt;/td>
-&lt;td>1e-26（可存33位十进制）&lt;/td>
+&lt;td>$10^{-26}$ 一般不用太精确，所以 $10^{-15}$ 就差不多（可存33位十进制）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>CSP-J1 2022 参赛经历</title><link>https://www.pythoner.work/post/cspj1-2022/</link><pubDate>Sun, 18 Sep 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj1-2022/</guid><description>&lt;h2 id="day--2">Day -2&lt;/h2>
