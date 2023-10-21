@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/post/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Oct 2022 14:07:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/post/index.xml" rel="self" type="application/rss+xml"/><item><title>二分爆long long解决方法</title><link>https://www.pythoner.work/post/binary-search-ll-overflow/</link><pubDate>Sun, 23 Oct 2022 14:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/binary-search-ll-overflow/</guid><description>&lt;h2 id="爆掉出现的问题">爆掉出现的问题&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 分而治之</title><link>https://www.pythoner.work/post/</link><description>Recent content in Posts on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 21 Oct 2023 21:25:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/post/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP 2023 游记</title><link>https://www.pythoner.work/post/tn004-csp-2023-second/</link><pubDate>Sat, 21 Oct 2023 21:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn004-csp-2023-second/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
+&lt;p>摆烂。&lt;/p>
+&lt;p>忘记查哪个考场了。&lt;/p>
+&lt;h2 id="day-0">Day 0&lt;/h2>
+&lt;h5 id="730">7:30&lt;/h5>
+&lt;p>乘坐出租车（拼车？）前往rdfz。&lt;/p>
+&lt;h5 id="815">8:15&lt;/h5>
+&lt;p>进考场，听不明白监考老师在说什么。&lt;/p>
+&lt;p>花了3分钟才把回收系统的地址抄下来，然后发现坐错了。&lt;/p>
+&lt;h5 id="826">8:26&lt;/h5>
+&lt;p>发了试题，看题……&lt;/p>
+&lt;p>我喜欢把四道题分别叫成 &lt;code>ABCD&lt;/code>，结果发现第一题叫 &lt;code>Apple&lt;/code>，第四题叫 &lt;code>Bus&lt;/code>……&lt;/p>
+&lt;h5 id="912">9:12&lt;/h5>
+&lt;p>提交 &lt;code>AB&lt;/code> 两题。&lt;/p>
+&lt;p>觉得 &lt;code>200&lt;/code> 分起步。&lt;/p>
+&lt;h5 id="1112">11:12&lt;/h5>
+&lt;p>搞不明白 &lt;code>C&lt;/code>，拿点部分分走人。&lt;/p>
+&lt;h5 id="1147">11:47&lt;/h5>
+&lt;p>交了 &lt;code>D&lt;/code>，觉得在 &lt;code>C&lt;/code> 上浪费时间太多了，不然可以写正解 &lt;code>dij&lt;/code> 的。&lt;/p>
+&lt;h5 id="1200">12:00&lt;/h5>
+&lt;p>离场，前往&lt;em>麦&lt;/em>吃午饭。&lt;/p>
+&lt;p>排大队啊！离谱！&lt;/p>
+&lt;p>最后总算吃上了。&lt;/p>
+&lt;h5 id="1400">14:00&lt;/h5>
+&lt;p>进考场。rdf风景不错。&lt;/p>
+&lt;p>不让带食品和水。&lt;/p>
+&lt;h5 id="1515">15:15&lt;/h5>
+&lt;p>开始摆烂……&lt;/p>
+&lt;p>太难了吧！&lt;/p>
+&lt;p>至少能保证把 &lt;code>A&lt;/code> 过掉。&lt;/p>
+&lt;h5 id="1830">18:30&lt;/h5>
+&lt;p>考完了，啃带来的巧克力。&lt;/p>
+&lt;h5 id="1840">18:40&lt;/h5>
+&lt;p>rdfz夜景真的很好看，可惜没带手机。&lt;/p>
+&lt;p>出了考场才知道前年CSP是在这考的。&lt;/p>
+&lt;p>J 组估分 $130$。&lt;/p>
+&lt;h2 id="未完待续">未完待续&lt;/h2></description></item><item><title>CSP 2023 游记</title><link>https://www.pythoner.work/post/tn003-csp-2023-first/</link><pubDate>Sun, 17 Sep 2023 09:14:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn003-csp-2023-first/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
+&lt;p>确定考场：&lt;em>北京市第八十中学&lt;/em>&lt;/p>
+&lt;p>啊这……去过不知道多少遍了……&lt;/p>
+&lt;h2 id="day-0">Day 0&lt;/h2>
+&lt;h5 id="930">9:30&lt;/h5>
+&lt;p>发卷。&lt;/p>
+&lt;p>钉在一起了？这……不太好翻吧？&lt;/p>
+&lt;h5 id="1110">11:10&lt;/h5>
+&lt;p>做完了，觉得没什么好检查的了，直接涂答题卡。&lt;/p>
+&lt;p>迷惑身边的学长怎么涂了半小时。&lt;/p>
+&lt;h5 id="1130">11:30&lt;/h5>
+&lt;p>考完了，经典收卷不能离开座位。&lt;/p>
+&lt;h5 id="1430">14:30&lt;/h5>
+&lt;p>时间挺紧，继续考S组。&lt;/p>
+&lt;h5 id="1510">15:10&lt;/h5>
+&lt;p>已经把会做的题都做完了，决定开始涂答题卡。&lt;/p>
+&lt;h5 id="1545">15:45&lt;/h5>
+&lt;p>欣赏风景……^_^&lt;/p>
+&lt;h5 id="1630">16:30&lt;/h5>
+&lt;p>交卷，轻松。&lt;/p>
+&lt;p>比去年只打J组还轻松。&lt;/p>
+&lt;h5 id="1730">17:30&lt;/h5>
+&lt;p>J组估分 $69$，比去年低了 $10$ 分！&lt;/p>
+&lt;p>不应该啊，今年题比去年简单 $10$ 倍。&lt;/p>
+&lt;h2 id="day-1">Day 1&lt;/h2>
+&lt;p>周日，&lt;code>原神？启动！&lt;/code>。&lt;/p>
+&lt;p>S组估分 $47.5$，正常，毕竟我也没认真答。&lt;/p>
+&lt;h2 id="day-">Day ?&lt;/h2>
+&lt;p>最后成绩：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>CSP-J&lt;/th>
+&lt;th>CSP-S&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>66&lt;/td>
+&lt;td>52.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>晋级&lt;/td>
+&lt;td>晋级&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>?等奖&lt;/td>
+&lt;td>?等奖&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>二分爆long long解决方法</title><link>https://www.pythoner.work/post/exp002-bs-ll-overflow/</link><pubDate>Sun, 23 Oct 2022 14:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp002-bs-ll-overflow/</guid><description>&lt;h2 id="爆掉出现的问题">爆掉出现的问题&lt;/h2>
 &lt;p>此处使用爆&lt;code>int&lt;/code>举例：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -97,7 +183,7 @@
 &lt;td>$10^{-26}$ 一般不用太精确，所以 $10^{-15}$ 就差不多（可存33位十进制）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>CSP-J1 2022 参赛经历</title><link>https://www.pythoner.work/post/cspj1-2022/</link><pubDate>Sun, 18 Sep 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj1-2022/</guid><description>&lt;h2 id="day--2">Day -2&lt;/h2>
+&lt;/table></description></item><item><title>CSP-J1 2022 参赛经历</title><link>https://www.pythoner.work/post/tn001-csp-2022-first/</link><pubDate>Sun, 18 Sep 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn001-csp-2022-first/</guid><description>&lt;h2 id="day--2">Day -2&lt;/h2>
 &lt;p>今天做了个模拟，成绩65，一般般。最主要的是保持一个好状态准备迎接J1。&lt;/p>
 &lt;h2 id="day--1">Day -1&lt;/h2>
 &lt;p>小图灵集训队集训日。今天终于能从J1的思维中跳出来放松一下了！&lt;/p>
@@ -135,64 +221,7 @@
 &lt;h2 id="day-9">Day 9&lt;/h2>
 &lt;p>出成绩啦，77又变回去了哈哈哈。&lt;/p>
 &lt;p>晋级，是肯定的，毕竟我在北京。&lt;/p>
-&lt;p>可以冲J2啦。&lt;/p>
-&lt;p>本文到此结束&lt;a class="link" href="https://pythoner.work/post/cspj2-2022" target="_blank" rel="noopener"
->J2链接&lt;/a>&lt;/p></description></item><item><title>什么是密码</title><link>https://www.pythoner.work/post/cryptography_intro/</link><pubDate>Wed, 24 Aug 2022 16:38:00 +0800</pubDate><guid>https://www.pythoner.work/post/cryptography_intro/</guid><description>&lt;h2 id="窃听">窃听&lt;/h2>
-&lt;p>发送者（sender）Alice向接收者（receiver）Bob发信息（message）。&lt;/p>
-&lt;p>&lt;img src="https://www.pythoner.work/post/cryptography_intro/alice_to_bob.png"
-width="900"
-height="282"
-srcset="https://www.pythoner.work/post/cryptography_intro/alice_to_bob_hue68df2e7534426cbf0331601741f051e_6970_480x0_resize_box_3.png 480w, https://www.pythoner.work/post/cryptography_intro/alice_to_bob_hue68df2e7534426cbf0331601741f051e_6970_1024x0_resize_box_3.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="319"
-data-flex-basis="765px"
->&lt;/p>
-&lt;p>但是可能有窃听者（eavesdropper）会偷看消息。&lt;/p>
-&lt;p>&lt;img src="https://www.pythoner.work/post/cryptography_intro/eve_intercepts_message.png"
-width="900"
-height="282"
-srcset="https://www.pythoner.work/post/cryptography_intro/eve_intercepts_message_hud8e2ee5bd70612e82df3101ecec6d92e_7913_480x0_resize_box_3.png 480w, https://www.pythoner.work/post/cryptography_intro/eve_intercepts_message_hud8e2ee5bd70612e82df3101ecec6d92e_7913_1024x0_resize_box_3.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="319"
-data-flex-basis="765px"
->&lt;/p>
-&lt;h2 id="加密解密">加密解密&lt;/h2>
-&lt;p>加密（encrypt）的过程就是将明文（plaintext）转化为密文（ciphertext）的过程，而解密（decrypt）相反。&lt;/p>
-&lt;p>&lt;img src="https://www.pythoner.work/post/cryptography_intro/encrypt.png"
-width="900"
-height="282"
-srcset="https://www.pythoner.work/post/cryptography_intro/encrypt_hu7339a8911aa7f1c2d4284e4ca3eb384c_6701_480x0_resize_box_3.png 480w, https://www.pythoner.work/post/cryptography_intro/encrypt_hu7339a8911aa7f1c2d4284e4ca3eb384c_6701_1024x0_resize_box_3.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="319"
-data-flex-basis="765px"
->
-&lt;img src="https://www.pythoner.work/post/cryptography_intro/decrypt.png"
-width="900"
-height="282"
-srcset="https://www.pythoner.work/post/cryptography_intro/decrypt_hu9b2d1cc59d9f3fa26fea1d2592547201_6843_480x0_resize_box_3.png 480w, https://www.pythoner.work/post/cryptography_intro/decrypt_hu9b2d1cc59d9f3fa26fea1d2592547201_6843_1024x0_resize_box_3.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="319"
-data-flex-basis="765px"
->&lt;/p>
-&lt;p>如果将消息加密发送，窃听者得到的只有密文。&lt;/p>
-&lt;p>&lt;img src="https://www.pythoner.work/post/cryptography_intro/encrypt_and_send.png"
-width="900"
-height="550"
-srcset="https://www.pythoner.work/post/cryptography_intro/encrypt_and_send_hub73b7c0f8e947687d1ef842c416bc091_21455_480x0_resize_box_3.png 480w, https://www.pythoner.work/post/cryptography_intro/encrypt_and_send_hub73b7c0f8e947687d1ef842c416bc091_21455_1024x0_resize_box_3.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="163"
-data-flex-basis="392px"
->&lt;/p>
-&lt;h2 id="机密性">机密性&lt;/h2>
-&lt;p>在刚刚的故事里，Alice和Bob运用了密码技术（cryptography），保证了信息的机密性（confidentiality）。&lt;/p>
-&lt;h2 id="破译密码">破译密码&lt;/h2>
-&lt;p>通过非正当的手段试图把密文还原成明文叫做密码破译（cryptanalysis），简称破译，也称为密码分析。&lt;/p>
-&lt;p>进行破译的人叫做破译者（cryptanalyst）。&lt;/p></description></item><item><title>size_t相当于unsigned long long</title><link>https://www.pythoner.work/post/unsigned-cannot-sub1/</link><pubDate>Thu, 11 Aug 2022 14:38:00 +0800</pubDate><guid>https://www.pythoner.work/post/unsigned-cannot-sub1/</guid><description>&lt;h2 id="问题">问题&lt;/h2>
+&lt;p>可以冲J2啦。&lt;/p></description></item><item><title>size_t相当于unsigned long long</title><link>https://www.pythoner.work/post/exp001-unsigned-no-sub1/</link><pubDate>Thu, 11 Aug 2022 14:38:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp001-unsigned-no-sub1/</guid><description>&lt;h2 id="问题">问题&lt;/h2>
 &lt;h3 id="代码">代码&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -226,7 +255,7 @@ data-flex-basis="392px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> for (int i = 0; i &amp;lt; vec.size(); i ++ ) {
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>可以发现如果&lt;code>size&lt;/code>是$0$那么就会减出$18446744073709551615$，明显是要报错的。&lt;/p></description></item><item><title>快速幂</title><link>https://www.pythoner.work/post/qmi/</link><pubDate>Thu, 11 Aug 2022 11:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
+&lt;/div>&lt;p>可以发现如果&lt;code>size&lt;/code>是$0$那么就会减出$18446744073709551615$，明显是要报错的。&lt;/p></description></item><item><title>快速幂</title><link>https://www.pythoner.work/post/algo002-qmi/</link><pubDate>Thu, 11 Aug 2022 11:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/algo002-qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
 &lt;p>求$m ^ k$ $\bmod$ $p$&lt;/p>
 &lt;h2 id="反复平方法">反复平方法&lt;/h2>
 &lt;h3 id="预处理">预处理&lt;/h3>
@@ -297,109 +326,7 @@ $4^5$ $\bmod$ $10$ $=$ $1024$ $\bmod$ $10$ $=$ $4$&lt;/p>
 $$m (m - 1)^{n-1}$$
 那不越狱的方案数就是：
 $$m^n - m(m - 1)^{n - 1}$$
-用快速幂解决问题。&lt;/p></description></item><item><title>Physics Experiment</title><link>https://www.pythoner.work/post/sol-poj3684/</link><pubDate>Wed, 10 Aug 2022 18:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-poj3684/</guid><description>&lt;h2 id="题面英">题面（英）&lt;/h2>
-&lt;h3 id="description">Description&lt;/h3>
-&lt;p>Simon is doing a physics experiment with $\small{N}$ identical balls with the same radius of $\small{R}$ centimeters. Before the experiment, all $\small{N}$ balls are fastened within a vertical tube one by one and the lowest point of the lowest ball is $\small{H}$ meters above the ground. At beginning of the experiment, (at second $\small{0}$), the first ball is released and falls down due to the gravity. After that, the balls are released one by one in every second until all balls have been released. When a ball hits the ground, it will bounce back with the same speed as it hits the ground. When two balls hit each other, they with exchange their velocities (both speed and direction).&lt;/p>
-&lt;p>Simon wants to know where are the $\small{N}$ balls after $\small{T}$ seconds. Can you help him?&lt;/p>
-&lt;p>In this problem, you can assume that the gravity is constant: $\small{g = 10m/s^2}$.&lt;/p>
-&lt;h3 id="input">Input&lt;/h3>
-&lt;p>The first line of the input contains one integer $\small{C}$ ($\small{C \le 20}$) indicating the number of test cases. Each of the following lines contains four integers $\small{N}$, $\small{H}$, $\small{R}$, $\small{T}$.&lt;/p>
-&lt;p>$\small{1 \le N \le 100}$ &lt;br>
-$\small{1 \le H \le 10000}$ &lt;br>
-$\small{1 \le R \le 100}$ &lt;br>
-$\small{1 \le T \le 10000}$&lt;/p>
-&lt;h3 id="output">Output&lt;/h3>
-&lt;p>For each test case, your program should output $\small{N}$ real numbers indicating the height in meters of the lowest point of each ball separated by a single space in a single line. Each number should be rounded to $\small{2}$ digit after the decimal point.&lt;/p>
-&lt;h3 id="sample-input">Sample Input&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 10 10 100
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 10 10 100
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="sample-output">Sample Output&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">4.95
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">4.95 10.20
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="解法">解法&lt;/h2>
-&lt;p>首先简化一下问题，看一下只有一个球的情况。此时这只是单纯的物理问题，背公式：
-$$t = \sqrt{\frac{2H}{g}}$$
-求小球的高度：&lt;br>
-当$k$（满足$kt \le T$的最大整数）是偶数：
-$$H - \frac{1}{2}g(T - kt) ^ 2$$
-是奇数：
-$$H - \frac{1}{2}g(kt + t - T) ^ 2$$&lt;/p></description></item><item><title>CSP-J/NOIP普及组复赛历年试题汇总</title><link>https://www.pythoner.work/post/cspj-noip1-problem/</link><pubDate>Wed, 10 Aug 2022 17:51:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj-noip1-problem/</guid><description>&lt;h2 id="csp-j-2021">CSP-J 2021&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4089/" target="_blank" rel="noopener"
->T1 分糖果&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4090/" target="_blank" rel="noopener"
->T2 插入排序&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4091/" target="_blank" rel="noopener"
->T3 网络连接&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4092/" target="_blank" rel="noopener"
->T4 小熊的果篮&lt;/a>&lt;/p>
-&lt;h2 id="csp-j-2020">CSP-J 2020&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2769/" target="_blank" rel="noopener"
->T1 优秀的拆分&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2770/" target="_blank" rel="noopener"
->T2 直播获奖&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2771/" target="_blank" rel="noopener"
->T3 表达式&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2772/" target="_blank" rel="noopener"
->T4 方格取数&lt;/a>&lt;/p>
-&lt;h2 id="csp-j-2019">CSP-J 2019&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1163/" target="_blank" rel="noopener"
->T1 数字游戏&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1164/" target="_blank" rel="noopener"
->T2 公交换乘&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1165/" target="_blank" rel="noopener"
->T3 纪念品&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1166/" target="_blank" rel="noopener"
->T4 加工领奖&lt;/a>&lt;/p>
-&lt;h2 id="noip2018-普及组">NOIP2018 普及组&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/476/" target="_blank" rel="noopener"
->T1 标题统计&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/477/" target="_blank" rel="noopener"
->T2 龙虎斗&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/478/" target="_blank" rel="noopener"
->T3 摆渡车&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/479/" target="_blank" rel="noopener"
->T4 对称二叉树&lt;/a>&lt;/p>
-&lt;h2 id="noip2017-普及组">NOIP2017 普及组&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/471/" target="_blank" rel="noopener"
->T1 成绩&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/472/" target="_blank" rel="noopener"
->T2 图书管理员&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/473/" target="_blank" rel="noopener"
->T3 棋盘&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/474/" target="_blank" rel="noopener"
->T4 跳房子&lt;/a>&lt;/p>
-&lt;h2 id="noip2016-普及组">NOIP2016 普及组&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/467/" target="_blank" rel="noopener"
->T1 买铅笔&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/468/" target="_blank" rel="noopener"
->T2 回文日期&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/469/" target="_blank" rel="noopener"
->T3 海港&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/470/" target="_blank" rel="noopener"
->T4 魔法阵&lt;/a>&lt;/p></description></item><item><title>排列与二进制</title><link>https://www.pythoner.work/post/sol-acw3588/</link><pubDate>Tue, 12 Jul 2022 13:57:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-acw3588/</guid><description>&lt;h2 id="题目大意">题目大意&lt;/h2>
-&lt;p>求$P_{n}^{m}$的二进制的后面有几个0。&lt;/p>
-&lt;p>$1\le m \le n \le 10000$&lt;/p>
-&lt;h2 id="解法">解法&lt;/h2>
-&lt;p>二进制可以忽略，&lt;strong>完全是出于出题人想搞晕做题人&lt;/strong>。&lt;/p>
-&lt;p>十进制中尾部的0的个数就是因数10的数量，二进制就是2。&lt;/p></description></item><item><title>从n个球中取m个</title><link>https://www.pythoner.work/post/counting/</link><pubDate>Sun, 10 Jul 2022 11:52:00 +0800</pubDate><guid>https://www.pythoner.work/post/counting/</guid><description>&lt;h2 id="不放回无重排列组合">不放回（无重排列组合）&lt;/h2>
+用快速幂解决问题。&lt;/p></description></item><item><title>从n个球中取m个</title><link>https://www.pythoner.work/post/comb001-counting/</link><pubDate>Sun, 10 Jul 2022 11:52:00 +0800</pubDate><guid>https://www.pythoner.work/post/comb001-counting/</guid><description>&lt;h2 id="不放回无重排列组合">不放回（无重排列组合）&lt;/h2>
 &lt;h3 id="有序">有序&lt;/h3>
 &lt;p>$$P_n^m$$&lt;/p>
 &lt;h3 id="无序">无序&lt;/h3>
@@ -419,122 +346,7 @@ $$C_{n+m-1}^{m}$$&lt;/p>
 &lt;h3 id="无序每种至少选一个">无序，每种至少选一个&lt;/h3>
 &lt;p>可重组合的变形，仍使用隔板法。&lt;/p>
 &lt;p>这次每种至少选一个的使得两个隔板不能放在一起，位置数减小到了$m - 1$，所以答案就是：
-$$C_{m-1}^{n-1}$$&lt;/p></description></item><item><title>2022计蒜之道初赛（第一场）</title><link>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</link><pubDate>Tue, 03 May 2022 17:17:51 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-dao-2022-a1/</guid><description>&lt;img src="https://www.pythoner.work/post/jisuanke-dao-2022-a1/dao-2022.png" alt="Featured image of post 2022计蒜之道初赛（第一场）" />&lt;h2 id="比赛简介">比赛简介&lt;/h2>
-&lt;ul>
-&lt;li>题数：4道&lt;/li>
-&lt;li>时间：3个小时&lt;/li>
-&lt;li>总分：400分&lt;/li>
-&lt;li>难度：2道J2，2道S2&lt;/li>
-&lt;li>晋级标准:前100名&lt;/li>
-&lt;/ul>
-&lt;h2 id="开始考试">开始考试&lt;/h2>
-&lt;p>先来讲题。&lt;/p>
-&lt;p>A题签到题忽略……
-CD题目前没能力解决，也忽略。&lt;/p>
-&lt;h3 id="bmila的木棍">B：Mila的木棍&lt;/h3>
-&lt;h4 id="题面">题面&lt;/h4>
-&lt;p>$\text{Mila}$ 找到了 $n$ 根木棍，她将这 $n$ 根木棍排成一行形成一个序列 $a$，但是她发现此时的序列可能是不优美的。&lt;/p>
-&lt;p>假如木棍的长度从左到右形成一个&lt;strong>不下降序列&lt;/strong>，那么 $\text{Mila}$ 认为这些木棍才是优美的。因此，$\text{Mila}$ 学习了一种可以削减木棍长度的魔法：对一个区间 $[l,r]$ 使用一次魔法，可以&lt;strong>将这个区间内所有木棍的长度减 $1$&lt;/strong>。&lt;/p>
-&lt;p>&lt;strong>不下降序列&lt;/strong>：对于所有 $1\leq j &amp;lt; i \leq n$，满足 $a[j] \leq a[i]$。例如序列 $3,3,4,5$ 就是不下降序列。&lt;/p>
-&lt;p>现在 $\text{Mila}$ 想要知道：&lt;strong>至少&lt;/strong>需要使用多少次魔法才可以将这些木棍变得优美？&lt;/p>
-&lt;h5 id="输入格式">输入格式&lt;/h5>
-&lt;p>第一行一个整数 $n$，表示木棍的数量。&lt;/p>
-&lt;p>第二行 $n$ 个以空格隔开的整数，表示这个序列，第 $i$ 根木棍的长度为 $a_i$。&lt;/p>
-&lt;h5 id="输出格式">输出格式&lt;/h5>
-&lt;p>输出共一行一个整数，表示答案。&lt;/p>
-&lt;h5 id="数据范围">数据范围&lt;/h5>
-&lt;p>对于 $20%$ 的数据，满足 $n,a_i\leq 10$。&lt;/p>
-&lt;p>对于 $40%$ 的数据，满足 $n\leq 10^3$。&lt;/p>
-&lt;p>对于另外 $20%$ 的数据，保证 $a$ 是一个不递增序列。&lt;/p>
-&lt;p>对于 $100%$ 的数据，满足 $1\leq n\leq 10^6,1\leq a_i\leq 10^9$。&lt;/p>
-&lt;h5 id="样例输入">样例输入&lt;/h5>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">3
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 3 2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h5 id="样例输出">样例输出&lt;/h5>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="满分解">满分解&lt;/h4>
-&lt;p>对于一个$i$，如果$a_i \gt a_{i + 1}$，那么为了形成不下降序列，至少有$a_i - a_{i + 1}$次削减的区间的右端点需位于$i$。&lt;/p>
-&lt;p>所以操作数至少为$\sum_{i=1}^{n - 1} max(a_i - a_{i + 1}, 0)$。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span class="cp">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">typedef&lt;/span> &lt;span class="kt">long&lt;/span> &lt;span class="kt">long&lt;/span> &lt;span class="n">LL&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">freopen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;stick.in&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;r&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">stdin&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">freopen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;stick.out&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;w&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">stdout&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">LL&lt;/span> &lt;span class="n">prev&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ans&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">prev&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">n&lt;/span> &lt;span class="o">--&lt;/span> &lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">n&lt;/span> &lt;span class="o">--&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cin&lt;/span> &lt;span class="o">&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">prev&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ans&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">prev&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">prev&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cout&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">ans&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="总结">总结&lt;/h2>
-&lt;h3 id="要用草稿纸">要用草稿纸&lt;/h3>
-&lt;p>不用草稿纸基本只能做签到题，况且这场比赛难度确实不低。&lt;/p></description></item><item><title>景区三角形</title><link>https://www.pythoner.work/post/sol-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
+$$C_{m-1}^{n-1}$$&lt;/p></description></item><item><title>景区三角形</title><link>https://www.pythoner.work/post/sol002-jisuanke-t3633/</link><pubDate>Sun, 01 May 2022 21:07:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol002-jisuanke-t3633/</guid><description>&lt;h2 id="题目">题目&lt;/h2>
 &lt;p>题目链接：&lt;a class="link" href="https://nanti.jisuanke.com/t/T3633" target="_blank" rel="noopener"
 >景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="解法">解法&lt;/h2>
@@ -679,7 +491,7 @@ CD题目前没能力解决，也忽略。&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="拓展基本不使用stl完成这道题">拓展：基本不使用STL完成这道题&lt;/h2>
-&lt;h3 id="手写邻接表">手写邻接表&lt;/h3>
+&lt;h3 id="链式前向星">链式前向星&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -921,37 +733,9 @@ CD题目前没能力解决，也忽略。&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>有道小图灵3级（2022年4月）</title><link>https://www.pythoner.work/post/xiaotuling-202204/</link><pubDate>Sat, 23 Apr 2022 18:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/xiaotuling-202204/</guid><description>&lt;h2 id="考试简介">考试简介&lt;/h2>
-&lt;ul>
-&lt;li>题数：5道&lt;/li>
-&lt;li>时间：2个小时&lt;/li>
-&lt;li>总分：500分&lt;/li>
-&lt;li>难度：低于CSP-J&lt;/li>
-&lt;/ul>
-&lt;h2 id="题目">题目&lt;/h2>
-&lt;p>ABC题没难度，忽略。&lt;/p>
-&lt;h3 id="d购机攻略">D：购机攻略&lt;/h3>
-&lt;p>链接：&lt;a class="link" href="https://oj.youdao.com/problem/9589" target="_blank" rel="noopener"
->购机攻略&lt;/a>&lt;/p>
-&lt;h4 id="思路">思路&lt;/h4>
-&lt;p>直接模拟，由于&lt;code>sort()&lt;/code>只能排序单个内容，不能排序散的内容，用&lt;code>struct&lt;/code>。&lt;/p>
-&lt;h4 id="易错点">易错点&lt;/h4>
-&lt;p>&lt;code>sort()&lt;/code>只能排序单个内容，不能排序散的内容，用&lt;code>struct&lt;/code>。&lt;/p>
-&lt;h3 id="e暑假作业">E：暑假作业&lt;/h3>
-&lt;p>链接：&lt;a class="link" href="https://oj.youdao.com/problem/9590" target="_blank" rel="noopener"
->暑假作业&lt;/a>&lt;/p>
-&lt;h4 id="思路-1">思路&lt;/h4>
-&lt;p>和二分求一个数的立方根这类的题相似，就用二分。&lt;/p>
-&lt;p>可以知道答案最少是1，至多是最大的元素，在这两个值中间二分。&lt;/p>
-&lt;h4 id="易错点-1">易错点&lt;/h4>
-&lt;p>容易想不到要二分……&lt;/p>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;h3 id="不能不拿部分分">不能不拿部分分&lt;/h3>
-&lt;p>DE两题是放弃了，所以得了300分，如果拿部分分就是360分，多了足足60分！！！&lt;/p>
-&lt;h3 id="要有思考不能光是暴力">要有思考，不能光是暴力&lt;/h3>
-&lt;p>很多算法都是先想暴力做法及其缺点再进行优化，我们也要学习。&lt;/p>
-&lt;h3 id="不能想问题想的过于死板">不能想问题想的过于死板&lt;/h3>
-&lt;p>D题根本就没想到&lt;code>sort()&lt;/code>不能排散东西。&lt;/p></description></item><item><title>计蒜客4月月赛（普及组）</title><link>https://www.pythoner.work/post/jisuanke-202204/</link><pubDate>Sat, 23 Apr 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/jisuanke-202204/</guid><description>&lt;h2 id="比赛简介">比赛简介&lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>UPD:2023-10-21&lt;/p>
+&lt;/blockquote></description></item><item><title>计蒜客4月月赛（普及组）</title><link>https://www.pythoner.work/post/sol001-jisuanke-202204/</link><pubDate>Sat, 23 Apr 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/sol001-jisuanke-202204/</guid><description>&lt;h2 id="比赛简介">比赛简介&lt;/h2>
 &lt;ul>
 &lt;li>题数：4道&lt;/li>
 &lt;li>时间：2个小时&lt;/li>
@@ -968,7 +752,7 @@ CD题目前没能力解决，也忽略。&lt;/p>
 &lt;p>直接找最大值砍下去。&lt;/p>
 &lt;h4 id="60分解法实际90分">60分解法（实际90分）&lt;/h4>
 &lt;p>使用&lt;code>priority_queue&lt;/code>来找最大值，一层一层砍。&lt;/p>
-&lt;h4 id="满分解">满分解&lt;/h4>
+&lt;h4 id="正解">正解&lt;/h4>
 &lt;p>二分答案法，非常简洁！&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1063,7 +847,7 @@ CD题目前没能力解决，也忽略。&lt;/p>
 >传递&lt;/a>&lt;/p>
 &lt;h4 id="40分">40分&lt;/h4>
 &lt;p>冒泡排序，边排边计算代价，非常暴力……&lt;/p>
-&lt;h4 id="满分解-1">满分解&lt;/h4>
+&lt;h4 id="正解-1">正解&lt;/h4>
 &lt;p>这是带权逆序对问题。&lt;/p>
 &lt;p>所以通过归并求逆序对，从$p_2$移到$p_1$需要耗费代价&lt;/p>
 &lt;p>$((p_2 + mid)^2 + (p_2 + mid - 1)^2 + &amp;hellip; + (p_2 + p_1)^2) + (2 * w[mid] * w[p_2] + 2 * w[mid - 1] * w[p_2] + &amp;hellip; + 2 * w[p_1] * w[p_2]) + (mid - p_1 + 1) * w[p_2]$&lt;/p>
@@ -1223,12 +1007,12 @@ CD题目前没能力解决，也忽略。&lt;/p>
 >景区三角形&lt;/a>&lt;/p>
 &lt;h4 id="暴力解法-1">暴力解法&lt;/h4>
 &lt;p>就$O(n^3)$找三个点，做个&lt;code>check()&lt;/code>，就结束了，不再赘述。&lt;/p>
-&lt;h4 id="满分解-2">满分解&lt;/h4>
+&lt;h4 id="正解-2">正解&lt;/h4>
 &lt;p>通过&lt;code>bfs&lt;/code>找三角形，一个点设一个$fa$，根（1）等于$-1$。&lt;/p>
 &lt;p>有点像找生成树。&lt;/p>
 &lt;p>找到一个点$v$，判断$fa$，$cur$，$v$是否构成三角形，如果是，排序放进答案里输出，如果$v$没遍历过，遍历$v$。&lt;/p>
-&lt;p>这道题我写了更详细的题解（代码也包装进去了，这里不放了哈）：
-&lt;a class="link" href="https://www.pythoner.work/post/sol-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
+&lt;p>这道题我写了更详细的题解：
+&lt;a class="link" href="https://www.pythoner.work/post/sol002-jisuanke-t3633/" >题解-景区三角形&lt;/a>&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;h3 id="不能放弃记得调试">不能放弃，记得调试&lt;/h3>
 &lt;p>C题本来能40分的，但是没调试，放弃了，代码都没存档……&lt;/p>
@@ -1239,7 +1023,10 @@ CD题目前没能力解决，也忽略。&lt;/p>
 关于C题的推导其实很长这件事……&lt;/p>
 &lt;h3 id="想算法时的方法很重要">想算法时的方法很重要&lt;/h3>
 &lt;p>签到题如果复杂度不超标就行，这回也就简简单单一个快速幂。&lt;/p>
-&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p></description></item><item><title>哈希表</title><link>https://www.pythoner.work/post/hashtable/</link><pubDate>Thu, 21 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/post/hashtable/</guid><description>&lt;h2 id="功能">功能&lt;/h2>
+&lt;p>其他题可以由复杂度推出算法，或是从暴力法开始优化，都可以。&lt;/p>
+&lt;blockquote>
+&lt;p>UPD:2023/10/21&lt;/p>
+&lt;/blockquote></description></item><item><title>哈希表</title><link>https://www.pythoner.work/post/ds001-hashtable/</link><pubDate>Thu, 21 Apr 2022 21:24:00 +0800</pubDate><guid>https://www.pythoner.work/post/ds001-hashtable/</guid><description>&lt;h2 id="功能">功能&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1458,10 +1245,10 @@ CD题目前没能力解决，也忽略。&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>循环队列</title><link>https://www.pythoner.work/post/circular-linked-list/</link><pubDate>Tue, 19 Apr 2022 15:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/circular-linked-list/</guid><description>&lt;h2 id="循环队列">循环队列&lt;/h2>
+&lt;/div></description></item><item><title>循环队列</title><link>https://www.pythoner.work/post/algo001-circular-linked-list/</link><pubDate>Tue, 19 Apr 2022 15:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/algo001-circular-linked-list/</guid><description>&lt;h2 id="循环队列">循环队列&lt;/h2>
 &lt;h3 id="功能">功能&lt;/h3>
-&lt;p>节省空间，比如说：&lt;/p>
-&lt;p>操作：&lt;/p>
+&lt;p>节省空间。&lt;/p>
+&lt;p>普通队列用过的空间不能用了，循环队列可以重复利用。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1470,10 +1257,7 @@ CD题目前没能力解决，也忽略。&lt;/p>
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="n">push&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="n">pop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="n">push&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="n">pop&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>效果：
-hh以前的空间不能用了。&lt;/p>
-&lt;p>用循环队列可以把队列拉成数组的长度，而普通队列不一定。&lt;/p>
-&lt;h3 id="代码">代码&lt;/h3>
+&lt;/div>&lt;h3 id="代码">代码&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -1620,7 +1404,6 @@ hh以前的空间不能用了。&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="版权问题">版权问题&lt;/h2>
-&lt;p>没有问题，背着抱着都行。&lt;/p>
-&lt;h2 id="评论区问题">评论区问题&lt;/h2>
-&lt;p>评论区不能抱走， sofa你是背不动滴，给我一句留言我就让你抱走。&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;blockquote>
+&lt;p>UPD:2023-10-21&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSP on 分而治之</title><link>https://www.pythoner.work/tags/csp/</link><description>Recent content in CSP on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 18 Sep 2022 15:00:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/csp/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP-J1 2022 参赛经历</title><link>https://www.pythoner.work/post/cspj1-2022/</link><pubDate>Sun, 18 Sep 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj1-2022/</guid><description>&lt;h2 id="day--2">Day -2&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSP on 分而治之</title><link>https://www.pythoner.work/tags/csp/</link><description>Recent content in CSP on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 21 Oct 2023 21:25:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/csp/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP 2023 游记</title><link>https://www.pythoner.work/post/tn004-csp-2023-second/</link><pubDate>Sat, 21 Oct 2023 21:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn004-csp-2023-second/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
+&lt;p>摆烂。&lt;/p>
+&lt;p>忘记查哪个考场了。&lt;/p>
+&lt;h2 id="day-0">Day 0&lt;/h2>
+&lt;h5 id="730">7:30&lt;/h5>
+&lt;p>乘坐出租车（拼车？）前往rdfz。&lt;/p>
+&lt;h5 id="815">8:15&lt;/h5>
+&lt;p>进考场，听不明白监考老师在说什么。&lt;/p>
+&lt;p>花了3分钟才把回收系统的地址抄下来，然后发现坐错了。&lt;/p>
+&lt;h5 id="826">8:26&lt;/h5>
+&lt;p>发了试题，看题……&lt;/p>
+&lt;p>我喜欢把四道题分别叫成 &lt;code>ABCD&lt;/code>，结果发现第一题叫 &lt;code>Apple&lt;/code>，第四题叫 &lt;code>Bus&lt;/code>……&lt;/p>
+&lt;h5 id="912">9:12&lt;/h5>
+&lt;p>提交 &lt;code>AB&lt;/code> 两题。&lt;/p>
+&lt;p>觉得 &lt;code>200&lt;/code> 分起步。&lt;/p>
+&lt;h5 id="1112">11:12&lt;/h5>
+&lt;p>搞不明白 &lt;code>C&lt;/code>，拿点部分分走人。&lt;/p>
+&lt;h5 id="1147">11:47&lt;/h5>
+&lt;p>交了 &lt;code>D&lt;/code>，觉得在 &lt;code>C&lt;/code> 上浪费时间太多了，不然可以写正解 &lt;code>dij&lt;/code> 的。&lt;/p>
+&lt;h5 id="1200">12:00&lt;/h5>
+&lt;p>离场，前往&lt;em>麦&lt;/em>吃午饭。&lt;/p>
+&lt;p>排大队啊！离谱！&lt;/p>
+&lt;p>最后总算吃上了。&lt;/p>
+&lt;h5 id="1400">14:00&lt;/h5>
+&lt;p>进考场。rdf风景不错。&lt;/p>
+&lt;p>不让带食品和水。&lt;/p>
+&lt;h5 id="1515">15:15&lt;/h5>
+&lt;p>开始摆烂……&lt;/p>
+&lt;p>太难了吧！&lt;/p>
+&lt;p>至少能保证把 &lt;code>A&lt;/code> 过掉。&lt;/p>
+&lt;h5 id="1830">18:30&lt;/h5>
+&lt;p>考完了，啃带来的巧克力。&lt;/p>
+&lt;h5 id="1840">18:40&lt;/h5>
+&lt;p>rdfz夜景真的很好看，可惜没带手机。&lt;/p>
+&lt;p>出了考场才知道前年CSP是在这考的。&lt;/p>
+&lt;p>J 组估分 $130$。&lt;/p>
+&lt;h2 id="未完待续">未完待续&lt;/h2></description></item><item><title>CSP 2023 游记</title><link>https://www.pythoner.work/post/tn003-csp-2023-first/</link><pubDate>Sun, 17 Sep 2023 09:14:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn003-csp-2023-first/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
+&lt;p>确定考场：&lt;em>北京市第八十中学&lt;/em>&lt;/p>
+&lt;p>啊这……去过不知道多少遍了……&lt;/p>
+&lt;h2 id="day-0">Day 0&lt;/h2>
+&lt;h5 id="930">9:30&lt;/h5>
+&lt;p>发卷。&lt;/p>
+&lt;p>钉在一起了？这……不太好翻吧？&lt;/p>
+&lt;h5 id="1110">11:10&lt;/h5>
+&lt;p>做完了，觉得没什么好检查的了，直接涂答题卡。&lt;/p>
+&lt;p>迷惑身边的学长怎么涂了半小时。&lt;/p>
+&lt;h5 id="1130">11:30&lt;/h5>
+&lt;p>考完了，经典收卷不能离开座位。&lt;/p>
+&lt;h5 id="1430">14:30&lt;/h5>
+&lt;p>时间挺紧，继续考S组。&lt;/p>
+&lt;h5 id="1510">15:10&lt;/h5>
+&lt;p>已经把会做的题都做完了，决定开始涂答题卡。&lt;/p>
+&lt;h5 id="1545">15:45&lt;/h5>
+&lt;p>欣赏风景……^_^&lt;/p>
+&lt;h5 id="1630">16:30&lt;/h5>
+&lt;p>交卷，轻松。&lt;/p>
+&lt;p>比去年只打J组还轻松。&lt;/p>
+&lt;h5 id="1730">17:30&lt;/h5>
+&lt;p>J组估分 $69$，比去年低了 $10$ 分！&lt;/p>
+&lt;p>不应该啊，今年题比去年简单 $10$ 倍。&lt;/p>
+&lt;h2 id="day-1">Day 1&lt;/h2>
+&lt;p>周日，&lt;code>原神？启动！&lt;/code>。&lt;/p>
+&lt;p>S组估分 $47.5$，正常，毕竟我也没认真答。&lt;/p>
+&lt;h2 id="day-">Day ?&lt;/h2>
+&lt;p>最后成绩：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>CSP-J&lt;/th>
+&lt;th>CSP-S&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>66&lt;/td>
+&lt;td>52.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>晋级&lt;/td>
+&lt;td>晋级&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>?等奖&lt;/td>
+&lt;td>?等奖&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>CSP-J1 2022 参赛经历</title><link>https://www.pythoner.work/post/tn001-csp-2022-first/</link><pubDate>Sun, 18 Sep 2022 15:00:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn001-csp-2022-first/</guid><description>&lt;h2 id="day--2">Day -2&lt;/h2>
 &lt;p>今天做了个模拟，成绩65，一般般。最主要的是保持一个好状态准备迎接J1。&lt;/p>
 &lt;h2 id="day--1">Day -1&lt;/h2>
 &lt;p>小图灵集训队集训日。今天终于能从J1的思维中跳出来放松一下了！&lt;/p>
@@ -36,59 +122,4 @@
 &lt;h2 id="day-9">Day 9&lt;/h2>
 &lt;p>出成绩啦，77又变回去了哈哈哈。&lt;/p>
 &lt;p>晋级，是肯定的，毕竟我在北京。&lt;/p>
-&lt;p>可以冲J2啦。&lt;/p>
-&lt;p>本文到此结束&lt;a class="link" href="https://pythoner.work/post/cspj2-2022" target="_blank" rel="noopener"
->J2链接&lt;/a>&lt;/p></description></item><item><title>CSP-J/NOIP普及组复赛历年试题汇总</title><link>https://www.pythoner.work/post/cspj-noip1-problem/</link><pubDate>Wed, 10 Aug 2022 17:51:00 +0800</pubDate><guid>https://www.pythoner.work/post/cspj-noip1-problem/</guid><description>&lt;h2 id="csp-j-2021">CSP-J 2021&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4089/" target="_blank" rel="noopener"
->T1 分糖果&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4090/" target="_blank" rel="noopener"
->T2 插入排序&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4091/" target="_blank" rel="noopener"
->T3 网络连接&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/4092/" target="_blank" rel="noopener"
->T4 小熊的果篮&lt;/a>&lt;/p>
-&lt;h2 id="csp-j-2020">CSP-J 2020&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2769/" target="_blank" rel="noopener"
->T1 优秀的拆分&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2770/" target="_blank" rel="noopener"
->T2 直播获奖&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2771/" target="_blank" rel="noopener"
->T3 表达式&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/2772/" target="_blank" rel="noopener"
->T4 方格取数&lt;/a>&lt;/p>
-&lt;h2 id="csp-j-2019">CSP-J 2019&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1163/" target="_blank" rel="noopener"
->T1 数字游戏&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1164/" target="_blank" rel="noopener"
->T2 公交换乘&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1165/" target="_blank" rel="noopener"
->T3 纪念品&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/1166/" target="_blank" rel="noopener"
->T4 加工领奖&lt;/a>&lt;/p>
-&lt;h2 id="noip2018-普及组">NOIP2018 普及组&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/476/" target="_blank" rel="noopener"
->T1 标题统计&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/477/" target="_blank" rel="noopener"
->T2 龙虎斗&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/478/" target="_blank" rel="noopener"
->T3 摆渡车&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/479/" target="_blank" rel="noopener"
->T4 对称二叉树&lt;/a>&lt;/p>
-&lt;h2 id="noip2017-普及组">NOIP2017 普及组&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/471/" target="_blank" rel="noopener"
->T1 成绩&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/472/" target="_blank" rel="noopener"
->T2 图书管理员&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/473/" target="_blank" rel="noopener"
->T3 棋盘&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/474/" target="_blank" rel="noopener"
->T4 跳房子&lt;/a>&lt;/p>
-&lt;h2 id="noip2016-普及组">NOIP2016 普及组&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/467/" target="_blank" rel="noopener"
->T1 买铅笔&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/468/" target="_blank" rel="noopener"
->T2 回文日期&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/469/" target="_blank" rel="noopener"
->T3 海港&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.acwing.com/problem/content/470/" target="_blank" rel="noopener"
->T4 魔法阵&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>可以冲J2啦。&lt;/p></description></item></channel></rss>

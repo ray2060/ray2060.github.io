@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>算法 on 分而治之</title><link>https://www.pythoner.work/categories/%E7%AE%97%E6%B3%95/</link><description>Recent content in 算法 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Aug 2022 11:56:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>快速幂</title><link>https://www.pythoner.work/post/qmi/</link><pubDate>Thu, 11 Aug 2022 11:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>算法 on 分而治之</title><link>https://www.pythoner.work/categories/%E7%AE%97%E6%B3%95/</link><description>Recent content in 算法 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Aug 2022 11:56:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>快速幂</title><link>https://www.pythoner.work/post/algo002-qmi/</link><pubDate>Thu, 11 Aug 2022 11:56:00 +0800</pubDate><guid>https://www.pythoner.work/post/algo002-qmi/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
 &lt;p>求$m ^ k$ $\bmod$ $p$&lt;/p>
 &lt;h2 id="反复平方法">反复平方法&lt;/h2>
 &lt;h3 id="预处理">预处理&lt;/h3>
@@ -69,10 +69,10 @@ $4^5$ $\bmod$ $10$ $=$ $1024$ $\bmod$ $10$ $=$ $4$&lt;/p>
 $$m (m - 1)^{n-1}$$
 那不越狱的方案数就是：
 $$m^n - m(m - 1)^{n - 1}$$
-用快速幂解决问题。&lt;/p></description></item><item><title>循环队列</title><link>https://www.pythoner.work/post/circular-linked-list/</link><pubDate>Tue, 19 Apr 2022 15:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/circular-linked-list/</guid><description>&lt;h2 id="循环队列">循环队列&lt;/h2>
+用快速幂解决问题。&lt;/p></description></item><item><title>循环队列</title><link>https://www.pythoner.work/post/algo001-circular-linked-list/</link><pubDate>Tue, 19 Apr 2022 15:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/algo001-circular-linked-list/</guid><description>&lt;h2 id="循环队列">循环队列&lt;/h2>
 &lt;h3 id="功能">功能&lt;/h3>
-&lt;p>节省空间，比如说：&lt;/p>
-&lt;p>操作：&lt;/p>
+&lt;p>节省空间。&lt;/p>
+&lt;p>普通队列用过的空间不能用了，循环队列可以重复利用。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -81,10 +81,7 @@ $$m^n - m(m - 1)^{n - 1}$$
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="n">push&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="n">pop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="n">push&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="n">pop&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>效果：
-hh以前的空间不能用了。&lt;/p>
-&lt;p>用循环队列可以把队列拉成数组的长度，而普通队列不一定。&lt;/p>
-&lt;h3 id="代码">代码&lt;/h3>
+&lt;/div>&lt;h3 id="代码">代码&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -231,7 +228,6 @@ hh以前的空间不能用了。&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="版权问题">版权问题&lt;/h2>
-&lt;p>没有问题，背着抱着都行。&lt;/p>
-&lt;h2 id="评论区问题">评论区问题&lt;/h2>
-&lt;p>评论区不能抱走， sofa你是背不动滴，给我一句留言我就让你抱走。&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;blockquote>
+&lt;p>UPD:2023-10-21&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
