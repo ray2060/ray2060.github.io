@@ -6,6 +6,7 @@ categories:
 - 经验
 tags:
 - 二分
+- 爆int
 ---
 
 ## 爆掉出现的问题

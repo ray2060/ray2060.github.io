@@ -5,7 +5,7 @@ date: 2022-04-21T21:24:00+08:00
 categories:
 - 数据结构
 tags:
-- hashtable
+- 哈希表
 ---
 
 ## 功能

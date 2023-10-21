@@ -85,5 +85,3 @@ D $N^2$
 晋级，是肯定的，毕竟我在北京。
 
 可以冲J2啦。
-
-本文到此结束[J2链接](https://pythoner.work/post/cspj2-2022)

@@ -5,8 +5,7 @@ date: 2022-08-11T14:38:00+08:00
 categories:
 - 经验
 tags:
-- size_t
-- unsigned
+- 数据类型
 ---
 
 ## 问题
@@ -38,4 +37,3 @@ C:/blahblah/blahblahblah.cpp:2022:23: warning: comparison of integer expressions
 ```
 
 可以发现如果`size`是$0$那么就会减出$18446744073709551615$，明显是要报错的。
-
