@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数论 on 分而治之</title><link>https://www.pythoner.work/tags/%E6%95%B0%E8%AE%BA/</link><description>Recent content in 数论 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 26 Aug 2024 22:03:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E6%95%B0%E8%AE%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>GESP7级做题经验及题解</title><link>https://www.pythoner.work/post/exp004-gesp-7/</link><pubDate>Mon, 26 Aug 2024 22:03:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp004-gesp-7/</guid><description>&lt;p>[2024-08-26 22:03] 完成了 &amp;lt;商品交易&amp;gt; 和 &amp;lt;纸牌游戏&amp;gt; 的题解与感受。&lt;/p>
-&lt;h2 id="商品交易-gesp202312-七级-a">商品交易 GESP202312 七级 A&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数论 on 分而治之</title><link>https://www.pythoner.work/tags/%E6%95%B0%E8%AE%BA/</link><description>Recent content in 数论 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 26 Aug 2024 22:03:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E6%95%B0%E8%AE%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>GESP7级做题经验及题解</title><link>https://www.pythoner.work/post/exp004-gesp-7/</link><pubDate>Mon, 26 Aug 2024 22:03:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp004-gesp-7/</guid><description>&lt;h3 id="更新记录">更新记录&lt;/h3>
+&lt;p>[2024-08-26 22:03] 完成了 &amp;lt;商品交易&amp;gt; 和 &amp;lt;纸牌游戏&amp;gt; 的题解与感受。&lt;br>
+[2024-08-27 15:08] 完成了 &amp;lt;交流问题&amp;gt; 的题解与感受，并提供了所有题目的正确代码。&lt;/p>
+&lt;h3 id="正确代码">正确代码&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.luogu.com.cn/paste/nxiws747" target="_blank" rel="noopener"
+>洛谷 - 云剪贴板&lt;/a>，&lt;a class="link" href="https://gist.github.com/ray2060/3476b18baeceb672160b1388f31dcfea" target="_blank" rel="noopener"
+>Github - Gist&lt;/a>&lt;/p>
+&lt;h2 id="商品交易-202312-a">商品交易 202312 A&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10110" target="_blank" rel="noopener"
 >洛谷题库 P10110&lt;/a>&lt;/p>
 &lt;h3 id="题解">题解&lt;/h3>
@@ -125,7 +131,7 @@
 &lt;/div>
 &lt;/div>&lt;p>数据量有点迷惑性，$10^5$ 对应的时间复杂度 $O(n\log n)$ 让人联想到 Dijkstra 等算法，然后发现实际上是一个 $O(n)$ 的 BFS。&lt;/p>
 &lt;p>此题难度不高，出题组第一次出七级的题可能把握不住题目难度，不作七级题目难度参考。&lt;/p>
-&lt;h2 id="纸牌游戏-gesp202312-七级-b">纸牌游戏 GESP202312 七级 B&lt;/h2>
+&lt;h2 id="纸牌游戏-202312-b">纸牌游戏 202312 B&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10111" target="_blank" rel="noopener"
 >洛谷题库 P10111&lt;/a>&lt;/p>
 &lt;h3 id="题解-1">题解&lt;/h3>
@@ -142,19 +148,23 @@
 &lt;/blockquote>
 &lt;p>DP 的状态表示基本靠硬想，唯一的技巧就是题里有啥就写啥，想到什么表示方法就试试，不行的话就尝试增加或减少一个维度之类的。&lt;/p>
 &lt;p>偶尔做题时会发现一些有意思的小事情，比如每轮得分可以表示为 &lt;code>((c[i] == j) ? a[i] : (2 * ((c[i] + 3 - j) % 3 - 1) * a[i]))&lt;/code>（&lt;code>c[i]&lt;/code> 为对手出牌，&lt;code>j&lt;/code> 为我方出牌，&lt;code>a[i]&lt;/code> 为本局分数）&lt;del>，然后你就会发现这玩意完全没用&lt;/del>。&lt;/p>
-&lt;h2 id="交流问题-gesp202403-七级-a">交流问题 GESP202403 七级 A&lt;/h2>
+&lt;h2 id="交流问题-202403-a">交流问题 202403 A&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10378" target="_blank" rel="noopener"
 >洛谷题库 P10378&lt;/a>&lt;/p>
-&lt;p>待更新。&lt;/p>
-&lt;h2 id="俄罗斯方块-gesp202403-七级-b">俄罗斯方块 GESP202403 七级 B&lt;/h2>
+&lt;h3 id="题解-2">题解&lt;/h3>
+&lt;p>A 校和 B 校很明显是一个二分图的两部分。每个连通块都有两种分学校的方案，可以通过染色法分出学校，左右两半分别是 A B 校或 B A 校，两种方案产生了两组“该连通块中 A 校人数和 B 校人数”，记录两组中较小的 B 校人数（其实 B 校还是 A 校没区别，所以也可以只求一组，取两校人数的最小值）。仅需计算该二分图所有的连通块的“较小的 B 校人数”之和，该数是 B 校总人数的最小值，用 $n$ 减去该数就是 B 校总人数的最大值（即 A B 校学生数互换）。&lt;/p>
+&lt;h3 id="感受-2">感受&lt;/h3>
+&lt;p>二分图明显就明显在所有边（交流）都在两学校之间，学校内不连边。每个连通块内的集合（学校）划分就是给每个点（学生）打标签，与染色法十分相似。&lt;/p>
+&lt;p>很水，感觉思考深度和前两题完全不是一个级别（话好像说反了）。&lt;/p>
+&lt;h2 id="俄罗斯方块-202403-b">俄罗斯方块 202403 B&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10379" target="_blank" rel="noopener"
 >洛谷题库 P10379&lt;/a>&lt;/p>
 &lt;p>待更新。&lt;/p>
-&lt;h2 id="黑白翻转-gesp202406-七级-a">黑白翻转 GESP202406 七级 A&lt;/h2>
+&lt;h2 id="黑白翻转-202406-a">黑白翻转 202406 A&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10723" target="_blank" rel="noopener"
 >洛谷题库 P10723&lt;/a>&lt;/p>
 &lt;p>待更新。&lt;/p>
-&lt;h2 id="区间乘积-gesp202406-七级-b">区间乘积 GESP202406 七级 B&lt;/h2>
+&lt;h2 id="区间乘积-202406-b">区间乘积 202406 B&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10724" target="_blank" rel="noopener"
 >洛谷题库 P10724&lt;/a>&lt;/p>
 &lt;p>待更新。&lt;/p></description></item></channel></rss>
