@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>树 on 分而治之</title><link>https://www.pythoner.work/tags/%E6%A0%91/</link><description>Recent content in 树 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 26 Aug 2024 22:03:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E6%A0%91/index.xml" rel="self" type="application/rss+xml"/><item><title>GESP7级做题经验及题解</title><link>https://www.pythoner.work/post/exp004-gesp-7/</link><pubDate>Mon, 26 Aug 2024 22:03:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp004-gesp-7/</guid><description>&lt;h3 id="更新记录">更新记录&lt;/h3>
 &lt;p>[2024-08-26 22:03] 完成了 &amp;lt;商品交易&amp;gt; 和 &amp;lt;纸牌游戏&amp;gt; 的题解与感受。&lt;br>
-[2024-08-27 15:08] 完成了 &amp;lt;交流问题&amp;gt; 的题解与感受，并提供了所有题目的正确代码。&lt;/p>
+[2024-08-27 15:08] 完成了 &amp;lt;交流问题&amp;gt; 的题解与感受，并提供了所有题目的正确代码。&lt;br>
+[2024-08-27 21:58] 补充了 &amp;lt;纸牌游戏&amp;gt; 的感受，完成了 &amp;lt;俄罗斯方块&amp;gt; 的题解与感受。&lt;/p>
 &lt;h3 id="正确代码">正确代码&lt;/h3>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/paste/nxiws747" target="_blank" rel="noopener"
 >洛谷 - 云剪贴板&lt;/a>，&lt;a class="link" href="https://gist.github.com/ray2060/3476b18baeceb672160b1388f31dcfea" target="_blank" rel="noopener"
@@ -148,6 +149,8 @@
 &lt;/blockquote>
 &lt;p>DP 的状态表示基本靠硬想，唯一的技巧就是题里有啥就写啥，想到什么表示方法就试试，不行的话就尝试增加或减少一个维度之类的。&lt;/p>
 &lt;p>偶尔做题时会发现一些有意思的小事情，比如每轮得分可以表示为 &lt;code>((c[i] == j) ? a[i] : (2 * ((c[i] + 3 - j) % 3 - 1) * a[i]))&lt;/code>（&lt;code>c[i]&lt;/code> 为对手出牌，&lt;code>j&lt;/code> 为我方出牌，&lt;code>a[i]&lt;/code> 为本局分数）&lt;del>，然后你就会发现这玩意完全没用&lt;/del>。&lt;/p>
+&lt;p>如果状态转移想的不太清楚的话，会产生大量复制粘贴，最终码量在 &lt;code>2KB&lt;/code> 左右，找规律可以减少一些复制粘贴，可以降到 &lt;code>1KB&lt;/code> 码量。&lt;/p>
+&lt;p>本题难度中等，状态表示很难，算是一道优秀的 DP 题。&lt;/p>
 &lt;h2 id="交流问题-202403-a">交流问题 202403 A&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10378" target="_blank" rel="noopener"
 >洛谷题库 P10378&lt;/a>&lt;/p>
@@ -159,7 +162,12 @@
 &lt;h2 id="俄罗斯方块-202403-b">俄罗斯方块 202403 B&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10379" target="_blank" rel="noopener"
 >洛谷题库 P10379&lt;/a>&lt;/p>
-&lt;p>待更新。&lt;/p>
+&lt;h3 id="题解-3">题解&lt;/h3>
+&lt;p>用类似于 floodfill 的算法解决，固定从每个俄罗斯方块左上角开始搜索，这样就可以使每个方块拥有一个固定的有根搜索树，相同形状的俄罗斯方块搜索树也相同，把遍历顺序（层序遍历，树上 DFS 等）当作这个类型的俄罗斯方块独一无二的标识。&lt;/p>
+&lt;p>用 &lt;code>set&lt;/code> 的去重功能统计有多少种遍历顺序，即有多少种俄罗斯方块。&lt;/p>
+&lt;h3 id="感受-3">感受&lt;/h3>
+&lt;p>floodfill 的特征还算明显，难就难在如何表示每个俄罗斯方块。这么做我是完全没想到的，看别人的题解看到的。遍历顺序是一个搜索的过程中就产生的东西，不增加复杂度，可能是一个比较容易发现的算法，但是我没发现。&lt;/p>
+&lt;p>巧妙的搜索题，难度的话，中等？&lt;/p>
 &lt;h2 id="黑白翻转-202406-a">黑白翻转 202406 A&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10723" target="_blank" rel="noopener"
 >洛谷题库 P10723&lt;/a>&lt;/p>
