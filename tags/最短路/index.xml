@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最短路 on 分而治之</title><link>https://www.pythoner.work/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/</link><description>Recent content in 最短路 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 26 Aug 2024 22:03:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>GESP7级做题经验及题解</title><link>https://www.pythoner.work/post/exp004-gesp-7/</link><pubDate>Mon, 26 Aug 2024 22:03:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp004-gesp-7/</guid><description>&lt;h3 id="更新记录">更新记录&lt;/h3>
 &lt;p>[2024-08-26 22:03] 完成了 &amp;lt;商品交易&amp;gt; 和 &amp;lt;纸牌游戏&amp;gt; 的题解与感受。&lt;br>
 [2024-08-27 15:08] 完成了 &amp;lt;交流问题&amp;gt; 的题解与感受，并提供了所有题目的正确代码。&lt;br>
-[2024-08-27 21:58] 补充了 &amp;lt;纸牌游戏&amp;gt; 的感受，完成了 &amp;lt;俄罗斯方块&amp;gt; 的题解与感受。&lt;br>
-[2024-08-28 16:34] 完成了 &amp;lt;黑白翻转&amp;gt; 和 &amp;lt;区间乘积&amp;gt; 的题解与感受，完结撒花。&lt;/p>
+[2024-08-27 21:58] 完成了 &amp;lt;俄罗斯方块&amp;gt; 的题解与感受，补充了 &amp;lt;纸牌游戏&amp;gt; 的感受。&lt;br>
+[2024-08-28 16:34] 完成了 &amp;lt;黑白翻转&amp;gt; 和 &amp;lt;区间乘积&amp;gt; 的题解与感受，完结撒花。&lt;br>
+[2024-08-28 16:53] 补充了 &amp;lt;总结&amp;gt; 部分。&lt;/p>
 &lt;h3 id="正确代码">正确代码&lt;/h3>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/paste/nxiws747" target="_blank" rel="noopener"
 >洛谷 - 云剪贴板&lt;/a>，&lt;a class="link" href="https://gist.github.com/ray2060/3476b18baeceb672160b1388f31dcfea" target="_blank" rel="noopener"
@@ -188,4 +189,7 @@
 &lt;h3 id="感受-5">感受&lt;/h3>
 &lt;p>难度简单。&lt;/p>
 &lt;p>当我们发现要记录奇偶性，又是加起来的时候，就可以想到异或以及状态压缩。&lt;/p>
-&lt;p>重复区间异或和出现次数这一点比较难想。&lt;/p></description></item></channel></rss>
+&lt;p>重复区间异或和出现次数这一点比较难想。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>整体难度略高，不稳定。&lt;/p>
+&lt;p>考的算法是搜索、图论、DP、数学 这几类，其中 DP 和数学很难。&lt;/p></description></item></channel></rss>
