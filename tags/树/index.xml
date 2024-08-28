@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>树 on 分而治之</title><link>https://www.pythoner.work/tags/%E6%A0%91/</link><description>Recent content in 树 on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 26 Aug 2024 22:03:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/%E6%A0%91/index.xml" rel="self" type="application/rss+xml"/><item><title>GESP7级做题经验及题解</title><link>https://www.pythoner.work/post/exp004-gesp-7/</link><pubDate>Mon, 26 Aug 2024 22:03:00 +0800</pubDate><guid>https://www.pythoner.work/post/exp004-gesp-7/</guid><description>&lt;h3 id="更新记录">更新记录&lt;/h3>
 &lt;p>[2024-08-26 22:03] 完成了 &amp;lt;商品交易&amp;gt; 和 &amp;lt;纸牌游戏&amp;gt; 的题解与感受。&lt;br>
 [2024-08-27 15:08] 完成了 &amp;lt;交流问题&amp;gt; 的题解与感受，并提供了所有题目的正确代码。&lt;br>
-[2024-08-27 21:58] 补充了 &amp;lt;纸牌游戏&amp;gt; 的感受，完成了 &amp;lt;俄罗斯方块&amp;gt; 的题解与感受。&lt;/p>
+[2024-08-27 21:58] 补充了 &amp;lt;纸牌游戏&amp;gt; 的感受，完成了 &amp;lt;俄罗斯方块&amp;gt; 的题解与感受。&lt;br>
+[2024-08-28 16:34] 完成了 &amp;lt;黑白翻转&amp;gt; 和 &amp;lt;区间乘积&amp;gt; 的题解与感受，完结撒花。&lt;/p>
 &lt;h3 id="正确代码">正确代码&lt;/h3>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/paste/nxiws747" target="_blank" rel="noopener"
 >洛谷 - 云剪贴板&lt;/a>，&lt;a class="link" href="https://gist.github.com/ray2060/3476b18baeceb672160b1388f31dcfea" target="_blank" rel="noopener"
@@ -171,8 +172,20 @@
 &lt;h2 id="黑白翻转-202406-a">黑白翻转 202406 A&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10723" target="_blank" rel="noopener"
 >洛谷题库 P10723&lt;/a>&lt;/p>
-&lt;p>待更新。&lt;/p>
+&lt;h3 id="题解-4">题解&lt;/h3>
+&lt;p>我们发现，只有连接两个及以上黑色节点的白色节点才需要染黑。白色叶节点并不能连接黑色节点，没有必要染成白色，所以循环删除所有白色叶节点。最后统计剩下的白色节点数并输出，因为最后剩下的白色节点都是需要染成黑色的。&lt;/p>
+&lt;p>注：无根树的叶节点的定义是度数不大于 $1$ 的点。&lt;/p>
+&lt;h3 id="感受-4">感受&lt;/h3>
+&lt;p>难度中等。&lt;/p>
+&lt;p>思路就是连接黑色节点，其余白色全部删除。容易走到歪路上，像是 DFS 之类（有可能路没歪但是我想不明白）。&lt;/p>
 &lt;h2 id="区间乘积-202406-b">区间乘积 202406 B&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/P10724" target="_blank" rel="noopener"
 >洛谷题库 P10724&lt;/a>&lt;/p>
-&lt;p>待更新。&lt;/p></description></item></channel></rss>
+&lt;h3 id="题解-5">题解&lt;/h3>
+&lt;p>容易发现：一个数是完全平方数时，它的所有质因子的指数都为偶数。&lt;/p>
+&lt;p>在质因数分解的过程中，我们可以通过状态压缩来存储每个质因子的指数的奇偶性，每一个二进制位代表一个质因子，这一位为 $1$ 的含义是其对应的质因子的指数是偶数，反之亦然。判断区间乘积是否为完全平方数可以通过该区间质因数分解结果的异或和是否为 $0$ 来判断。&lt;/p>
+&lt;p>建立 &lt;code>f&lt;/code> 数组，记录区间异或和出现次数，答案就是重复区间异或和出现的次数。&lt;/p>
+&lt;h3 id="感受-5">感受&lt;/h3>
+&lt;p>难度简单。&lt;/p>
+&lt;p>当我们发现要记录奇偶性，又是加起来的时候，就可以想到异或以及状态压缩。&lt;/p>
+&lt;p>重复区间异或和出现次数这一点比较难想。&lt;/p></description></item></channel></rss>
