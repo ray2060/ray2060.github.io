@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSP on 分而治之</title><link>https://www.pythoner.work/tags/csp/</link><description>Recent content in CSP on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 21 Oct 2023 21:25:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/csp/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP 2023 游记</title><link>https://www.pythoner.work/post/tn004-csp-2023-second/</link><pubDate>Sat, 21 Oct 2023 21:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn004-csp-2023-second/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSP on 分而治之</title><link>https://www.pythoner.work/tags/csp/</link><description>Recent content in CSP on 分而治之</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 28 Sep 2024 11:30:00 +0800</lastBuildDate><atom:link href="https://www.pythoner.work/tags/csp/index.xml" rel="self" type="application/rss+xml"/><item><title>CSP初赛 2024 游记</title><link>https://www.pythoner.work/post/tn005-csp-2024-first/</link><pubDate>Sat, 28 Sep 2024 11:30:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn005-csp-2024-first/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
+&lt;p>考场，又一次是八十中。&lt;/p>
+&lt;p>备赛，氢氰菘悚。&lt;/p>
+&lt;h2 id="day-0">Day 0&lt;/h2>
+&lt;h3 id="830">8:30&lt;/h3>
+&lt;p>起床，出发前往考场。&lt;/p>
+&lt;h3 id="900">9:00&lt;/h3>
+&lt;p>进入考场，完全不紧张。上午考 J 组。&lt;/p>
+&lt;p>我发现 CSP 的女考生占比逐年增加，去年我记得好像是 $2/31$，今年就变成 $4/34$&lt;/p>
+&lt;h3 id="930">9:30&lt;/h3>
+&lt;p>发卷，$12$ 页，大致看了一下，也就最后一道补全程序稍微有点难度，考的汉诺塔。&lt;/p>
+&lt;h3 id="1027">10:27&lt;/h3>
+&lt;p>做完了，汉诺塔那题花了12分钟验证我的答案。话说这次CCF怎么这么大方，整了个大张的答题卡。&lt;/p>
+&lt;h3 id="1130">11:30&lt;/h3>
+&lt;p>离开考场，自我感觉能考个 $100$ 分。&lt;/p>
+&lt;h3 id="1300">13:00&lt;/h3>
+&lt;p>今年小图灵真快，一个半小时就出估分了，估分 $97.5$。有一道格雷码不会，扣了 $2$ 分，另外那个 $0.5$ 好像是一道有争议的题。&lt;/p>
+&lt;h3 id="1430">14:30&lt;/h3>
+&lt;p>下午继续考 S 组。发卷，$16$ 页，压力有点大。&lt;/p>
+&lt;h3 id="1623">16:23&lt;/h3>
+&lt;p>卡点写完了卷子，赶紧把答题卡涂了。感觉自己发挥一般般，可能比去年好一丢丢，估计难度差不多。&lt;/p>
+&lt;h3 id="1800">18:00&lt;/h3>
+&lt;p>估分，$70.5$。&lt;/p>
+&lt;h2 id="day-6">Day 6&lt;/h2>
+&lt;p>成绩出了，J 组 $98$，S 组 $72.5$。&lt;/p>
+&lt;h2 id="未完待续-可能也不更了">未完待续 可能也不更了&lt;/h2></description></item><item><title>CSP 2023 游记</title><link>https://www.pythoner.work/post/tn004-csp-2023-second/</link><pubDate>Sat, 21 Oct 2023 21:25:00 +0800</pubDate><guid>https://www.pythoner.work/post/tn004-csp-2023-second/</guid><description>&lt;h2 id="day--1">Day -1&lt;/h2>
 &lt;p>摆烂。&lt;/p>
 &lt;p>忘记查哪个考场了。&lt;/p>
 &lt;h2 id="day-0">Day 0&lt;/h2>
