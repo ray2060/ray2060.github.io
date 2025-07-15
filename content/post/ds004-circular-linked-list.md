@@ -3,12 +3,15 @@ title: 循环队列
 description: 用数组构造循环队列。
 date: 2022-04-19T15:25:00+08:00
 categories:
-- 算法
+- 数据结构
 tags:
 - 队列
 - 循环队列
 - 空间复杂度
 ---
+
+> UPD: 2023-10-21
+> UPD: 2025-07-13
 
 ## 循环队列
 
@@ -21,6 +24,8 @@ tags:
 ```c++
 push(1); pop(); push(2); pop();
 ```
+
+实际比赛中根本用不到（现在这年头还有谁手写数据结构啊），直接用 STL queue。
 
 ### 代码
 
@@ -65,36 +70,4 @@ struct Queue {
         return tt - hh + 1;
     }
 };
-
-// 调试
-int main() {
-    Queue q;
-    q.push(1);
-    q.pop();
-    q.push(1);
-    q.push(2);
-    cout << (q.empty() ? 'Y' : 'N') << endl;
-    q.push(3);
-    q.pop();
-    q.pop();
-    q.pop();
-    q.push(1);
-    q.push(2);
-    q.push(3);
-    cout << q.front() << ' ';
-    cout << q.back() << endl;
-    q.push(4);
-    q.push(5);
-    cout << q.size();
-    q.push(6);
-    q.pop();
-    q.pop();
-    q.pop();
-    q.pop();
-    q.pop();
-    q.pop();
-    return 0;
-}
 ```
-
-> UPD:2023-10-21

@@ -8,6 +8,8 @@ tags:
 - 数据类型
 ---
 
+> UPD: 2025-07-15
+
 ## 问题
 
 ### 代码
@@ -32,8 +34,8 @@ for (int i = 0; i < vec.size() - 1; i ++ ) {
 ### 解读
 
 ```
-C:/blahblah/blahblahblah.cpp:2022:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+C:/xxx/xxx.cpp:12:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
      for (int i = 0; i < vec.size(); i ++ ) {
 ```
 
-可以发现如果`size`是$0$那么就会减出$18446744073709551615$，明显是要报错的。
+可以发现如果`size`是$0$，又因为 `size_type` 是 `unsigned long long`，那么就会减出$18446744073709551615$，明显是要报错的。
