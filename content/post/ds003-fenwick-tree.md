@@ -85,4 +85,131 @@ void update(int x, int val) {
 
 空间复杂度：$O(n)$
 
-## 未完待续 -- 2025/07/13 20:31
+### 参考代码
+
+[P3374 【模板】树状数组 1](https://www.luogu.com.cn/problem/P3374)
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+typedef long long LL;
+
+const int N = 5e5 + 10;
+
+LL a[N], c[N];
+int n, m;
+
+inline int lowbit(int x) { return x & -x; }
+
+void update(int x, LL val) {
+    while (x <= n) {
+        c[x] += val;
+        x += lowbit(x);
+    }
+}
+
+LL query(int x) {
+    LL res = 0;
+    while (x > 0) {
+        res += c[x];
+        x -= lowbit(x);
+    }
+    return res;
+}
+
+int main() {
+    cin >> n >> m;
+	for (int i = 1; i <= n; i ++ ) cin >> a[i], update(i, a[i]);
+
+    while (m -- ) {
+        int op;
+        cin >> op;
+        if (op == 1) {
+            int x; LL k;
+            cin >> x >> k;
+            update(x, k);
+        } else if (op == 2) {
+            int x, y;
+            cin >> x >> y;
+            cout << query(y) - query(x - 1) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+## Luogu P3368. 树状数组 2
+
+[P3368 【模板】树状数组 2](https://www.luogu.com.cn/problem/P3368)
+
+### 题意
+
+区间修改，单点查询。
+
+### 分析
+
+我们可以通过差分算法将区间修改转化为单点修改，同时单点查询变为区间查询，树状数组秒了。
+
+### 参考代码
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+typedef long long LL;
+
+const int N = 5e5 + 10;
+
+LL a[N], s[N];
+LL c[N];
+int n, m;
+
+inline int lowbit(int x) { return x & -x; }
+
+void update(int x, LL val) {
+    while (x <= n) {
+        c[x] += val;
+        x += lowbit(x);
+    }
+}
+
+LL query(int x) {
+    LL res = 0;
+    while (x > 0) {
+        res += c[x];
+        x -= lowbit(x);
+    }
+    return res;
+}
+
+int main() {
+    cin >> n >> m;
+	
+	for (int i = 1; i <= n; i ++ ) cin >> a[i];
+	for (int i = 1; i <= n; i ++ ) s[i] = a[i] - a[i - 1];
+    for (int i = 1; i <= n; i ++ ) {
+        update(i, s[i]);
+    }
+
+    while (m -- ) {
+        int op;
+        cin >> op;
+        if (op == 1) {
+            LL x, y, k;
+            cin >> x >> y >> k;
+            update(x, k);
+            update(y + 1, -k);
+        } else if (op == 2) {
+            int x;
+            cin >> x;
+            cout << query(x) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+## 未完待续 2025/07/21
