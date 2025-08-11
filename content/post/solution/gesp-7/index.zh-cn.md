@@ -3,7 +3,7 @@ title: GESP7级做题经验及题解
 description: 包括2023-12,2024-03,2024-06
 date: 2024-08-26T22:03:00+08:00
 categories:
-- 经验
+- 题解
 tags:
 - GESP
 - 图论

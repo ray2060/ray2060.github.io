@@ -33,7 +33,7 @@ tags:
 
 下图展示了树状数组的工作原理：
 
-![](./assets/ds003-fenwick.svg)
+![](fenwick.svg)
 
 不难发现，$c[i]$ 管辖 $[i - lowbit(i) + 1, i]$ 这段区间。
 
@@ -211,5 +211,3 @@ int main() {
     return 0;
 }
 ```
-
-## 未完待续 2025/07/21

@@ -1,5 +1,5 @@
 ---
-title: CSP初赛 2024 游记
+title: CSP 2024 游记
 description: 又是双打的一年捏~
 date: 2024-09-28T11:30:00+08:00
 categories:

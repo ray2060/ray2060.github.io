@@ -1,5 +1,5 @@
 ---
-title: 景区三角形
+title: 计蒜客T3633 - 景区三角形
 description: 手写数据结构的快乐就在这篇题解里。
 date: 2022-05-01T21:07:00+08:00
 categories:

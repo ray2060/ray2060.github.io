@@ -1,5 +1,5 @@
 ---
-title: CSP-J1 2022 参赛经历
+title: CSP 2022 参赛经历
 description:
 date: 2022-09-18T15:00:00+08:00
 categories:
