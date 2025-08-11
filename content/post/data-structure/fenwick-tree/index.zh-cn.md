@@ -7,6 +7,10 @@ categories:
 tags:
 - 树
 - 树状数组
+- 位运算
+- 前缀和
+- 差分
+- lowbit
 ---
 
 > BIT 中 Binary 是形容 Index 的，不是形容 Tree 的。

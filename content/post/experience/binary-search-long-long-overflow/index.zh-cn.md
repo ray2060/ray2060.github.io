@@ -6,7 +6,7 @@ categories:
 - 经验
 tags:
 - 二分
-- 爆int
+- 数据类型
 ---
 
 > UPD: 2025-07-15

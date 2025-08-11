@@ -6,6 +6,8 @@ categories:
 - 题解
 tags:
 - 数学
+- 贪心
+- 模拟
 ---
 
 ## 2122A. Greedy Grid

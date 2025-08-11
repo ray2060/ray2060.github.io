@@ -8,6 +8,7 @@ tags:
 - 数学
 - C++
 - Python
+- mod
 ---
 
 ## 现象
