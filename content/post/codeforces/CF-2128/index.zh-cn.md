@@ -3,7 +3,7 @@ title: CF-2128 (Codeforces Round 1039, Div. 2) 题解
 description: 啃点难题
 date: 2025-08-09T21:32:00+08:00
 categories:
-- 题解
+- Codeforces
 tags:
 - 排序
 - 双指针
@@ -74,9 +74,9 @@ tags:
 
 #### 思路
 
-对于每个 $2 \leq i \leq n$，令 $m_i = \min(b_1, \ldots, b_{i-1})$。可以证明：当且仅当对于所有 $2 \leq i \leq n$ 满足 $b_i - m_i < m_i$ 时，可以达成 $a = b$。  
+对于每个 $2 \leq i \leq n$，令 $m_i = \min(b_1, \ldots, b_{i-1})$。可以证明：当且仅当对于所有 $2 \leq i \leq n$ 满足 $b_i - m_i < m_i$ 时，可以达成 $a = b$。
 
-**充分性证明**：可以从左至右构建数组 $a$。对于每个 $i$，若 $b_i < m_i$，则直接添加 $b_i$；否则，先添加 $b_i - m_i$，再添加 $m_i$。  
+**充分性证明**：可以从左至右构建数组 $a$。对于每个 $i$，若 $b_i < m_i$，则直接添加 $b_i$；否则，先添加 $b_i - m_i$，再添加 $m_i$。
 
 **必要性证明**：假设构造 $a = b$。在每一步中，均有 $a_i \leq b_i$。考虑最后一次对 $a_i$ 进行操作的值 $x$。根据 $i$ 的定义，必有
 $$a_i < x \leq \min(a_1, \ldots, a_{i - 1}) \leq \min(b_1, \ldots, b_{i-1})$$

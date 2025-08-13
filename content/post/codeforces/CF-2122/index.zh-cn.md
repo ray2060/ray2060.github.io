@@ -3,7 +3,7 @@ title: CF-2122 (Codeforces Round 1038, Div. 1 + 2) 题解
 description: 切点水题
 date: 2025-07-21T15:31:00+08:00
 categories:
-- 题解
+- Codeforces
 tags:
 - 数学
 - 贪心
@@ -103,13 +103,13 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);
 	cout.tie(nullptr);
-	
+
 	int t;
 	cin >> t;
 	while (t -- ) {
 		int n;
 		cin >> n;
-		
+
 		long long ans = 0;
 		while (n -- ) {
 			int a, b, c, d;

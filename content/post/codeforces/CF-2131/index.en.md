@@ -1,11 +1,14 @@
 ---
 title: CF-2131 (Codeforces Round 1042, Div. 3) Solution
 description: Zero delta predicted. Are you kidding me?
-date: 2025-08-11T12:15:00+08:00
-image: https://codeforces.org/s/15422/images/codeforces-sponsored-by-ton.png
+date: 2025-08-13T16:34:00+08:00
 categories:
-- 题解
+- Codeforces
 tags:
+- math
+- greedy
+- constructive algorithms
+- number theory
 ---
 
 ## [2131A. Lever](https://codeforces.com/contest/2131/problem/A)
@@ -25,3 +28,9 @@ Then, let us try to minimize the sum of a subarray. It must have a length of $3$
 Now, let us try to construct the array from left to right. We can see that $a_1 = -1$ because we cannot pick $1$ due to the previous condition and we need to minimize the absolute value. Keep going, for every even index $i$, we'll pick $a_i = 3$, except for $i = n$ where we pick $2$. For every odd index $i$, we'll pick $a_i = -1$.
 
 [Submission #333498392](https://codeforces.com/contest/2131/submission/333498392)
+
+## [2131C. Make it Equal](https://codeforces.com/contest/2131/problem/C)
+
+Notice that for every element $S_i$ or $T_i$, we can replace it with $S_i \bmod k$ or $k - S_i \bmod k$. So we can just store the minimum of $S_i \bmod k$ and $k - S_i \bmod k$ for every element. Thus, for the elements can become each other, their values stored are equal. Then we can check if the two sets are equal.
+
+[Submission #333526673](https://codeforces.com/contest/2131/submission/333526673)
