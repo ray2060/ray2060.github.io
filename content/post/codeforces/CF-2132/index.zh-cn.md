@@ -5,6 +5,12 @@ date: 2025-08-24T13:34:00+08:00
 categories:
 - Codeforces
 tags:
+- 字符串
+- 模拟
+- 排序
+- 贪心
+- 数学
+- 三分搜索
 ---
 
 ## [2132A. Homework](https://codeforces.com/contest/2132/problem/A)
