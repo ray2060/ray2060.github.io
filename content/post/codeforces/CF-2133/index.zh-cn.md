@@ -1,6 +1,6 @@
 ---
 title: CF-2133 (Codeforces Round 1044, Div. 2) 题解
-description: 
+description:
 date: 2025-08-25T21:51:00+08:00
 categories:
 - Codeforces
@@ -33,11 +33,29 @@ tags:
 
 答案显而易见，判断是否有齿数相等的齿轮。
 
-*Trick: 在 C++ 中，`unique()` 函数会返回一个迭代器，指向去重后的数组末尾，我们通过这个迭代器可以计算出新数组的长度，进一步我们可以判断数组长度是否有减少，若有减少，则说明有齿数相等的齿轮。*
-
 ### 参考代码
 
+#### O(n^2) 做法
+
+[Submission #335515090](https://codeforces.com/contest/2133/submission/335515090)
+
+#### O(n log n) 做法
+
+*在 C++ 中，`unique()` 函数会返回一个迭代器，指向去重后的数组末尾，我们通过这个迭代器可以计算出新数组的长度，进一步我们可以判断数组长度是否有减少，若有减少，则说明有齿数相等的齿轮。*
+
 [Submission #335402522](https://codeforces.com/contest/2133/submission/335402522)
+
+#### O(n) 做法 1
+
+*由于数据范围足够小，所以完全不会产生哈希碰撞，`set` 的单次操作复杂度为 $O(1)$。*
+
+[Submission #335440738](https://codeforces.com/contest/2133/submission/335440738)
+
+#### O(n) 做法 2
+
+*由于数据范围足够小，所以我们可以记录每个齿数出现的次数。*
+
+[Submission #335516343](https://codeforces.com/contest/2133/submission/335516343)
 
 ## [2133B. Villagers](https://codeforces.com/contest/2133/problem/B)
 
